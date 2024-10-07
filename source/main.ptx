@@ -5,15 +5,16 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>Multivariable Calculus</title>
+    <subtitle>Homework and Feedback</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./ch-homework.ptx" />
 
+    <xi:include href="./ch-examples.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
