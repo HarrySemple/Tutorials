@@ -7,6 +7,7 @@
   <book xml:id="my-great-book">
     <title>Multivariable Calculus</title>
     <subtitle>Homework and Feedback</subtitle>
+    <meta name="google-site-verification" content="SvuXHFCcswT6b19kNUafz7_e5ZWL45AoqJwO1O44sBE" />
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
