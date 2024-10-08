@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-normal-dist-derivation" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Normal Distribution</title>
+  <title>The Normal Distribution I</title>
 
   <p> Imagine you are throwing darts onto the <m>\mathbb{R}^2</m>-plane,
   aiming for the origin <m>(0,0)</m>. After hundereds of darts, what does

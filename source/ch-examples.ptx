@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Examples</title>
+  <title>Derivations</title>
 
   <introduction>
     <p> Text before the first section. </p>
@@ -10,5 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-arc-length-derivation.ptx" />
   <xi:include href="sec-normal-dist-derivation.ptx" />
+  <xi:include href="sec-normal-dist-derivation-2.ptx" />
 
 </chapter>
