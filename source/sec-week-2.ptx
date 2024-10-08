@@ -3,93 +3,84 @@
 <section xml:id="sec-week-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 2</title>
 
-  <p> Text of section. </p>
-  <question>
-    <p>
-      what is this?
-    </p>
-  </question>
-  <hint>
-    <p>
-      hmmm
-    </p>
-  </hint>
-  <hint>
-    <p>
-      hmmmmm
-    </p>
-  </hint>
-  <answer>
-    <p>
-      here you go
-    </p>
-  </answer>
+  <p> Problems from week 2, due <alert>1pm Tuesday 15th October</alert>. </p>
   <exercise>
-    <title>question 1</title>
-    
-    
+    <title>Question 2</title>
     <p>
-      hello
+      Sketch each of the following functions <m>f(x)</m>. Carefully explain each step of the construction. 
+      Check your answer using Desmos.
     </p>
+    <ol marker="(a)">
+      <li>
+        <p>
+          <m>f(x) = x^4 - 6x^2</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f(x) = -2(x^2 - 4)^3</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> <m>f(x) = \dfrac{3x}{(x-3)^2}</m>
+        </p>
+      </li>
+    </ol>
+    <solution>
+      <p>
+        <url href="https://www.desmos.com/calculator">Desmos</url>
+      </p>
+    </solution>
   </exercise>
-  <problem>
-    <title>Arc Lengths</title>
-    
+  <exercise>
+    <title>Question 4</title>
     <p>
-      Find the arc length of <m>f(x)</m>  along <m>[a,b]</m>.
-      <ol>
-        <li>
-          <p>
-            cosh<m>(x)</m>  along <m>[0,2]</m> 
-          </p>
-        </li>
-        <li>
-          <p>
-            <m>\frac{x^4}{8} + \frac{1}{4x^2}</m>  along <m>[1,3]</m>
-          </p>
-        </li>
-        <li>
-          <p>
-            <m>x^2+3x+2</m>  along <m>[0,1]</m>
-          </p>
-        </li>
-        <li>
-          <p>
-            <alert>(H)</alert> <m>\frac{1}{2}</m>ln<m>(x) - \frac{1}{4}x^2</m>  along <m>[1,e]</m>
-          </p>
-        </li>
-      </ol>
+      For each of the following curves, convert the equation from rectangular to polar coordinates and sketch it.
     </p>
-    <hint>
-      <p>
-        The arc length formula is given by
-        <md>
-          <mrow> S = \int_a^b\sqrt{1+\bigg(\frac{\text{d}y}{\text{d}x}\bigg)^2}\text{d}x \amp </mrow>
-        </md>
-        The following identities are also useful
-        
-        <md>
-          <mrow> \text{cosh}^2(x) - \text{sinh}^2(x) =\amp 1 </mrow>
-          <mrow>\text{cosh}^2(x) + \text{sinh}^2(x) =\amp\text{cosh}(2x). </mrow>
-        </md>
-        These combine to give
-        <md>
-          <mrow>\text{cosh}^2(x) =\amp\frac{1}{2}(\text{cosh}(2x)+1) </mrow>
-          <mrow>\text{sinh}^2(x) =\amp\frac{1}{2}(\text{cosh}(2x)-1). </mrow>
-        </md>
-        Finally,
-        <md>
-          <mrow>\text{cosh(arsinh(x))} =\amp\sqrt{1+x^2}. </mrow>
-        </md>
-      </p>
-    </hint>
-    <hint>
-      <title>part (c)</title>
-      <p>
-        Use the substitution <m>2x + 3 = \sinh(\theta)</m>
-      </p>
-    </hint>
-  </problem>
+    <ol>
+      <li>
+        <p>
+          <m>y^2 + (x - 1)^2 = 1</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>y=3</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> <m>9xy = 2</m>
+        </p>
+        <solution>
+          <p>
+            We have
+            <md>
+              <mrow>9xy \amp = 9r^2\cos(\theta)\sin(\theta)</mrow>
+              <mrow>\amp =\frac{9}{2}r^2\text{sin}(2\theta) = 2 </mrow>
+            </md>
+            Rearranging, 
+            <me> \implies r = \frac{2}{3\sqrt{\sin(2\theta)}}.</me>
+          </p>
+        </solution>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> <m>(x^2 + y^2 + 3x)^2 = 9(x^2 + y^2)</m>
+        </p>
+        <solution>
+          <p>
+            <me>(r^2 + 3x)^2 = 9r^2</me>
+            <me>(r^2 + 3 r\cos(\theta))^2 = 9r^2</me>
+            Taking the positive square-root and reearranging
+            <me>r = 3(1 - \cos(\theta)).</me>
+          </p>
+        </solution>
+      </li>
+    </ol>
+    
+  </exercise>
   
 
 </section>

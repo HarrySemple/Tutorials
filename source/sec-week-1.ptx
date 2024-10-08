@@ -3,9 +3,9 @@
 <section xml:id="sec-week-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 1</title>
 
-  <p> Problems For week 1, due <alert>4pm Wednesday 9th October</alert>. </p>
-  <problem>
-    <title>Arc Lengths</title>    
+  <p> Problems from week 1, due <alert>4pm Wednesday 9th October</alert>. </p>
+  <exercise>
+    <title>Question 1</title>    
     <p>
       Find the arc length of <m>f(x)</m>  along <m>[a,b]</m>.
       <ol marker="(a)">
@@ -74,13 +74,11 @@
     <answer>
       <title>Part (d).</title>
       <p>
-        Nobody knows.
-        <!--<m>\frac{1+e^2}{4}</m>
-      -->
+        <me>\frac{1+e^2}{4}</me>
       </p>
     </answer>
-  </problem>
-  <problem>
+  </exercise>
+  <exercise>
     <title>Question 3</title>
     <p>
       <alert>(H)</alert> Suppose a chain of length <m>L</m> is suspended between two points <m>x=-H</m> and <m>x=H</m>,
@@ -88,8 +86,96 @@
       The shape of the chain is then given by <m>y(x)</m> with <m>y(-H) = y(H) = 1</m>.
       Assume the lowest part of the hanging chain is at the point <m>x=0</m> so that <m>y'(0) = 0</m>.        
     </p>
+    <ol marker="(a)">
+      <li>
+        <p>
+          If the chain is hanging under its own weight alone then the shape of the chain is a catenary and
+          <me>
+            y(x) = a\cosh\left(\frac{x}{a}\right) + c
+          </me>
+          for constants <m>a</m> and <m>c</m>. In this case, show that the constant <m>a</m> satisfies
+          <me>\frac{L}{2} = a \sinh \left(\frac{H}{a}\right).</me>
+        </p>
+        <solution>
+          <p>
+            The total length of the chain is <m>L</m>, so the length of the chain from the lowest point 
+            (at <m>x=0</m>)to either end (at <m>x=\pm H</m>) is <m>L/2</m>. The arc length formula gives
+            <md>
+              <mrow>S(0, H) \amp = \int_0^H \sqrt{1 + \left(\dfrac{\mathrm{d}y}{\mathrm{d}x}\right)^2} \mathop{}\!\mathrm{d}x  </mrow>
+                <mrow>\amp = \int_0^H \sqrt{1 + \sinh^2\left(\frac{x}{a}\right)} \mathop{}\!\mathrm{d}x  </mrow>
+                  <mrow>\amp = \int_0^H \cosh\left(\frac{x}{a}\right) \mathop{}\!\mathrm{d}x  </mrow>
+                    <mrow>\amp = \left[a\sinh\left(\frac{x}{a}\right)\right]_0^H  </mrow>
+                      <mrow>\amp = a\sinh\left(\frac{H}{a}\right).</mrow>
+            </md>
+            Hence
+            <me>\frac{L}{2} = a\sinh\left(\frac{H}{a}\right).</me>
+          </p>
+        </solution>
+      </li>
+      <li>
+        <p>
+          In a suspension road bridge, the hanging chains of the bridge also have to support the 
+          weight of the road, which is much heavier than the weight of the chains. 
+          In this case the shape of the cables is a simple parabola, so that
+          <me>y(x) = \frac{a x^2}{2} + c.</me>
+          Show that in this case, the constant <m>a</m> satisfies the identity
+          <me>L = H \sqrt{1 + a^2 H^2} + \frac{1}{a} \operatorname{arsinh}(aH).</me>
+        </p>
+        <hint>
+          <p>
+            You may use
+            <me>\int \sqrt{1 + u^2} \mathop{}\!\mathrm{d}u = u\sqrt{1 + u^2}/2 + \operatorname{arsinh}(u)/2.</me>
+          </p>
+        </hint>
+        <solution>
+          <p>
+            In this case, <m>y(x) = \dfrac{ax^2}{2} + c</m>, so <m>\dfrac{\mathrm{d}y}{\mathrm{d}x} = ax</m>
+            As before, the arc length from the lowest point to either end is <m>L/2</m> and also <m>S(0,H)</m>. 
+            Thus we have
+            <md>
+              <mrow>\frac{L}{2} = S(0, H) 
+              \amp= \int_0^H \sqrt{1 + \left(\dfrac{\mathrm{d}y}{\mathrm{d}x}\right)^2} \mathop{}\!\mathrm{d}x </mrow>
+              <mrow>\amp= \int_0^H \sqrt{1 + a^2 x^2} \mathop{}\!\mathrm{d}x.</mrow>
+            </md>
+              To evaluate the integral, let <m>z = ax</m>, so <m>dz = adx</m>. Then
+              <md>
+              <mrow>\int_0^H \sqrt{1 + a^2 x^2} \mathop{}\!\mathrm{d}x \amp = \frac{1}{a} \int_0^{aH} \sqrt{1 + z^2} \mathop{}\!\mathrm{d}z  \\</mrow>
+                <mrow>\amp = \frac{1}{a}\left[ \frac{z}{2}\sqrt{1 + z^2} + \frac{1}{2}\operatorname{arsinh}(z) \right]_0^{aH}  \\</mrow>
+                  <mrow>\amp = \frac{1}{2}\left( H\sqrt{1 + a^2H^2} + \frac{1}{a}\operatorname{arsinh}(aH) \right).</mrow>
+              </md>
+          </p>
+        </solution>
+      </li>
+    </ol>
     
-  </problem>
+  </exercise>
+  <exercise>
+    <title>Question 4</title>
+    <p>
+      <alert>(H)</alert> The curve <m>y=x^3</m> with <m>0\leq x\leq a</m> is rotated around the <m>x</m> axis. 
+      Show that the area <m>A</m>of the resulting surface is given by
+      <me>A = 2 \pi \int_0^a x^3 \sqrt{1 + 9x^4} \mathop{}\!\mathrm{d}x.</me>
+      By making an appropriate substitution, show that
+      <me>A = \frac{\pi}{27} \left[ \left(1 + 9 a^4\right)^{3/2} -1 \right].</me>
+    </p>
+    <solution>
+      <p>
+        The surface area is given by
+        <md>
+          <mrow>A \amp = \int_0^a 2\pi y \sqrt{1 + \left(\dfrac{\mathrm{d}y}{\mathrm{d}x}\right)^2} \mathop{}\!\mathrm{d}x  </mrow>
+          <mrow>\amp = 2\pi \int_0^a  x^3 \sqrt{1 + 9x^4} \mathop{}\!\mathrm{d}x,</mrow>
+        </md>
+        as required. Let <m>p = 1 + 9x^4</m>, so <m>\mathrm{d}p/\mathrm{d}x = 36x^3</m>. Hence
+        <md>
+          <mrow>A \amp = \int_1^{1 + 9a^4} \frac{2\pi}{36}\sqrt{p} \, \mathop{}\!\mathrm{d}p  </mrow>
+          <mrow>\amp = \left[ \frac{\pi}{27}p^{\frac{3}{2}} \right]_1^{1 + 9a^4}  </mrow>
+          <mrow>\amp = \frac{\pi}{27}\left[(1 + 9a^4)^{\frac{3}{2}} - 1\right].</mrow>
+        </md>
+      </p>
+    </solution>
+    
+  </exercise>
+
 
 
 
