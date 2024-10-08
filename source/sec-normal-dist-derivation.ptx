@@ -8,8 +8,8 @@
   the plane look like?</p>
   <p>
     Assuming you're not a perfect shot, we would expect some variation -
-    a dense cluster at the centre that thins out as we look
-    further away from the origin. We also expect is this scattering to be <term>radially symmetric.</term>
+    a dense cluster at the centre that thins out
+    further away from the origin. We also expect is the scattering to be <term>radially symmetric.</term>
   </p>
   <p>
     Let <m>dA\subset\mathbb{R}^2</m> be a <em>small</em> region in the plane. We can
