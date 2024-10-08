@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "frontmatter-2",
+  "id": "frontmatter",
   "level": "1",
-  "url": "frontmatter-2.html",
-  "type": "Colophon",
+  "url": "frontmatter.html",
+  "type": "Front Matter",
   "number": "",
-  "title": "Colophon",
-  "body": "  copyright  "
+  "title": "Front Matter",
+  "body": "   Harry Semple  Department of Mathematical Sciences  University of Bath  has65@bath.ac.uk       "
 },
 {
   "id": "sec-week-1",
@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": " This book was authored in PreTeXt .  "
+  "body": " This book was authored in PreTeXt .  copyright  "
 }
 ]
 
