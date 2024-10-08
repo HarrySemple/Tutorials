@@ -92,9 +92,15 @@ window.MathJax = {
 #sec-week-1-3-2-3 { counter-set: sec-week-1-3-2-3 0; }
 #sec-week-1-3-2-3 > li::marker { content: "("counter(sec-week-1-3-2-3,lower-alpha)")"; }
 #sec-week-1-3-2-3 > li { counter-increment: sec-week-1-3-2-3; }
-#sec-week-2-8-2-3 { counter-set: sec-week-2-8-2-3 0; }
-#sec-week-2-8-2-3 > li::marker { content: ""counter(sec-week-2-8-2-3,decimal)"."; }
-#sec-week-2-8-2-3 > li { counter-increment: sec-week-2-8-2-3; }
+#sec-week-1-4-3 { counter-set: sec-week-1-4-3 0; }
+#sec-week-1-4-3 > li::marker { content: "("counter(sec-week-1-4-3,lower-alpha)")"; }
+#sec-week-1-4-3 > li { counter-increment: sec-week-1-4-3; }
+#sec-week-2-3-3 { counter-set: sec-week-2-3-3 0; }
+#sec-week-2-3-3 > li::marker { content: "("counter(sec-week-2-3-3,lower-alpha)")"; }
+#sec-week-2-3-3 > li { counter-increment: sec-week-2-3-3; }
+#sec-week-2-4-3 { counter-set: sec-week-2-4-3 0; }
+#sec-week-2-4-3 > li::marker { content: ""counter(sec-week-2-4-3,decimal)"."; }
+#sec-week-2-4-3 > li { counter-increment: sec-week-2-4-3; }
 #sec-normal-dist-derivation-2-2-2 { counter-set: sec-normal-dist-derivation-2-2-2 0; }
 #sec-normal-dist-derivation-2-2-2 > li::marker { content: ""counter(sec-normal-dist-derivation-2-2-2,decimal)"."; }
 #sec-normal-dist-derivation-2-2-2 > li { counter-increment: sec-normal-dist-derivation-2-2-2; }
@@ -142,7 +148,14 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-normal-dist-derivation.html" class="internal"><span class="title">The Normal Distribution I</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-normal-dist-derivation.html#exercises-norm" class="internal"><span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html" class="internal"><span class="title">The Normal Distribution II</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html" class="internal"><span class="title">The Normal Distribution II</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html#subsec-gauss" class="internal"><span class="title">The Gaussian Integral</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation-3.html" class="internal"><span class="title">The Normal Distribution III</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-normal-dist-derivation-3.html#subsec-spec-var" class="internal"><span class="title">Specifying Variables</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -150,59 +163,75 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-week-2"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Week 2</span>
 </h2>
-<div class="para" id="sec-week-2-2">Text of section.</div>
-<details id="sec-week-2-3" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Question</span><span class="space"> </span><span class="codenumber">3</span><span class="period">.</span>
-</h3></summary><article class="question example-like knowl__content"><div class="para" id="sec-week-2-3-1">what is this?</div></article></details><details id="sec-week-2-4" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-week-2-4-1">hmmm</div></div></details><details id="sec-week-2-5" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-week-2-5-1">hmmmmm</div></div></details><details id="sec-week-2-6" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-week-2-6-1">here you go</div></div></details><details id="sec-week-2-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Ex</span><span class="space"> </span><span class="codenumber">4</span><span class="period">.</span><span class="space"> </span><span class="title">question 1.</span>
-</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-week-2-7-2">hello</div></article></details><details id="sec-week-2-8" class="problem example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5</span><span class="period">.</span><span class="space"> </span><span class="title">Arc Lengths.</span>
-</h3></summary><article class="problem example-like knowl__content"><div class="para logical" id="sec-week-2-8-2">
-<div class="para">Find the arc length of <span class="process-math">\(f(x)\)</span>  along <span class="process-math">\([a,b]\text{.}\)</span>
+<div class="para" id="sec-week-2-2">Problems from week 2, due <em class="alert">1pm Tuesday 15th October</em>.</div>
+<details id="sec-week-2-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">4</span><span class="period">.</span><span class="space"> </span><span class="title">Question 2.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-week-2-3-2">Sketch each of the following functions <span class="process-math">\(f(x)\text{.}\)</span> Carefully explain each step of the construction. Check your answer using Desmos.</div>
+<ol class="lower-alpha" id="sec-week-2-3-3">
+<li id="sec-week-2-3-3-1"><div class="para" id="sec-week-2-3-3-1-1"><span class="process-math">\(\displaystyle f(x) = x^4 - 6x^2\)</span></div></li>
+<li id="sec-week-2-3-3-2"><div class="para" id="sec-week-2-3-3-2-1"><span class="process-math">\(\displaystyle f(x) = -2(x^2 - 4)^3\)</span></div></li>
+<li id="sec-week-2-3-3-3">
+<div class="para" id="sec-week-2-3-3-3-1">
+<em class="alert">(H)</em> <span class="process-math">\(f(x) = \dfrac{3x}{(x-3)^2}\)</span>
 </div>
-<ol class="decimal" id="sec-week-2-8-2-3">
-<li id="sec-week-2-8-2-3-1"><div class="para" id="sec-week-2-8-2-3-1-1">cosh<span class="process-math">\((x)\)</span>  along <span class="process-math">\([0,2]\)</span>
-</div></li>
-<li id="sec-week-2-8-2-3-2"><div class="para" id="sec-week-2-8-2-3-2-1">
-<span class="process-math">\(\frac{x^4}{8} + \frac{1}{4x^2}\)</span>  along <span class="process-math">\([1,3]\)</span>
-</div></li>
-<li id="sec-week-2-8-2-3-3"><div class="para" id="sec-week-2-8-2-3-3-1">
-<span class="process-math">\(x^2+3x+2\)</span>  along <span class="process-math">\([0,1]\)</span>
-</div></li>
-<li id="sec-week-2-8-2-3-4"><div class="para" id="sec-week-2-8-2-3-4-1">
-<em class="alert">(H)</em> <span class="process-math">\(\frac{1}{2}\)</span>ln<span class="process-math">\((x) - \frac{1}{4}x^2\)</span>  along <span class="process-math">\([1,e]\)</span>
-</div></li>
-</ol>
+<details id="sec-week-2-3-3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="sec-week-2-3-3-3-2-1"><iframe src="https://www.desmos.com/calculator/5twcowou5e" id="sec-week-2-3-3-3-2-1-1" width="360" height="540"></iframe></div></div></details>
+</li>
+</ol></article></details><details id="sec-week-2-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">5</span><span class="period">.</span><span class="space"> </span><span class="title">Question 4.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-week-2-4-2">For each of the following curves, convert the equation from rectangular to polar coordinates and sketch it.</div>
+<ol class="decimal" id="sec-week-2-4-3">
+<li id="sec-week-2-4-3-1"><div class="para" id="sec-week-2-4-3-1-1"><span class="process-math">\(\displaystyle y^2 + (x - 1)^2 = 1\)</span></div></li>
+<li id="sec-week-2-4-3-2"><div class="para" id="sec-week-2-4-3-2-1"><span class="process-math">\(\displaystyle y=3\)</span></div></li>
+<li id="sec-week-2-4-3-3">
+<div class="para" id="sec-week-2-4-3-3-1">
+<em class="alert">(H)</em> <span class="process-math">\(9xy = 2\)</span>
 </div>
-<details id="sec-week-2-8-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para logical" id="sec-week-2-8-3-1">
-<div class="para">The arc length formula is given by</div>
-<div class="displaymath process-math" id="sec-week-2-8-3-1-1">
+<details id="sec-week-2-4-3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-week-2-4-3-3-2-1">
+<div class="para">We have</div>
+<div class="displaymath process-math" id="sec-week-2-4-3-3-2-1-1">
 \begin{align*}
-S = \int_a^b\sqrt{1+\bigg(\frac{\text{d}y}{\text{d}x}\bigg)^2}\text{d}x \amp 
+9xy \amp = 9r^2\cos(\theta)\sin(\theta)\\
+\amp =\frac{9}{2}r^2\text{sin}(2\theta) = 2 
 \end{align*}
 </div>
-<div class="para">The following identities are also useful</div>
-<div class="displaymath process-math" id="sec-week-2-8-3-1-2">
-\begin{align*}
-\text{cosh}^2(x) - \text{sinh}^2(x) =\amp 1 \\
-\text{cosh}^2(x) + \text{sinh}^2(x) =\amp\text{cosh}(2x). 
-\end{align*}
+<div class="para">Rearranging,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\implies r = \frac{2}{3\sqrt{\sin(2\theta)}}.
+\end{equation*}
 </div>
-<div class="para">These combine to give</div>
-<div class="displaymath process-math" id="sec-week-2-8-3-1-3">
-\begin{align*}
-\text{cosh}^2(x) =\amp\frac{1}{2}(\text{cosh}(2x)+1) \\
-\text{sinh}^2(x) =\amp\frac{1}{2}(\text{cosh}(2x)-1). 
-\end{align*}
 </div>
-<div class="para">Finally,</div>
-<div class="displaymath process-math" id="sec-week-2-8-3-1-4">
-\begin{align*}
-\text{cosh(arsinh(x))} =\amp\sqrt{1+x^2}. 
-\end{align*}
+<iframe src="https://www.desmos.com/calculator/gi8bp68vj2" id="sec-week-2-4-3-3-2-2" width="360" height="540"></iframe>
+</div></details>
+</li>
+<li id="sec-week-2-4-3-4">
+<div class="para" id="sec-week-2-4-3-4-1">
+<em class="alert">(H)</em> <span class="process-math">\((x^2 + y^2 + 3x)^2 = 9(x^2 + y^2)\)</span>
 </div>
-</div></div></details><details id="sec-week-2-8-4" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span><span class="space"> </span><span class="title">part (c)</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-week-2-8-4-2">Use the substitution <span class="process-math">\(2x + 3 = \sinh(\theta)\)</span>
-</div></div></details></article></details></section></div>
+<details id="sec-week-2-4-3-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-week-2-4-3-4-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+(r^2 + 3x)^2 = 9r^2
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(r^2 + 3 r\cos(\theta))^2 = 9r^2
+\end{equation*}
+</div>
+<div class="para">Taking the positive square-root and reearranging</div>
+<div class="displaymath process-math">
+\begin{equation*}
+r = 3(1 - \cos(\theta)).
+\end{equation*}
+</div>
+</div>
+<iframe src="https://www.desmos.com/calculator/ewu7wtpszy" id="sec-week-2-4-3-4-2-2" width="360" height="540"></iframe>
+</div></details>
+</li>
+</ol></article></details></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-week-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-examples.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

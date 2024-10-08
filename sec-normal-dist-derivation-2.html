@@ -92,9 +92,15 @@ window.MathJax = {
 #sec-week-1-3-2-3 { counter-set: sec-week-1-3-2-3 0; }
 #sec-week-1-3-2-3 > li::marker { content: "("counter(sec-week-1-3-2-3,lower-alpha)")"; }
 #sec-week-1-3-2-3 > li { counter-increment: sec-week-1-3-2-3; }
-#sec-week-2-8-2-3 { counter-set: sec-week-2-8-2-3 0; }
-#sec-week-2-8-2-3 > li::marker { content: ""counter(sec-week-2-8-2-3,decimal)"."; }
-#sec-week-2-8-2-3 > li { counter-increment: sec-week-2-8-2-3; }
+#sec-week-1-4-3 { counter-set: sec-week-1-4-3 0; }
+#sec-week-1-4-3 > li::marker { content: "("counter(sec-week-1-4-3,lower-alpha)")"; }
+#sec-week-1-4-3 > li { counter-increment: sec-week-1-4-3; }
+#sec-week-2-3-3 { counter-set: sec-week-2-3-3 0; }
+#sec-week-2-3-3 > li::marker { content: "("counter(sec-week-2-3-3,lower-alpha)")"; }
+#sec-week-2-3-3 > li { counter-increment: sec-week-2-3-3; }
+#sec-week-2-4-3 { counter-set: sec-week-2-4-3 0; }
+#sec-week-2-4-3 > li::marker { content: ""counter(sec-week-2-4-3,decimal)"."; }
+#sec-week-2-4-3 > li { counter-increment: sec-week-2-4-3; }
 #sec-normal-dist-derivation-2-2-2 { counter-set: sec-normal-dist-derivation-2-2-2 0; }
 #sec-normal-dist-derivation-2-2-2 > li::marker { content: ""counter(sec-normal-dist-derivation-2-2-2,decimal)"."; }
 #sec-normal-dist-derivation-2-2-2 > li { counter-increment: sec-normal-dist-derivation-2-2-2; }
@@ -117,7 +123,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-normal-dist-derivation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-examples.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-normal-dist-derivation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-examples.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-normal-dist-derivation-3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -142,7 +148,14 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-normal-dist-derivation.html" class="internal"><span class="title">The Normal Distribution I</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-normal-dist-derivation.html#exercises-norm" class="internal"><span class="title">Exercises</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html" class="internal"><span class="title">The Normal Distribution II</span></a></div></li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html" class="internal"><span class="title">The Normal Distribution II</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html#subsec-gauss" class="internal"><span class="title">The Gaussian Integral</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation-3.html" class="internal"><span class="title">The Normal Distribution III</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-normal-dist-derivation-3.html#subsec-spec-var" class="internal"><span class="title">Specifying Variables</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
@@ -153,7 +166,7 @@ window.MathJax = {
 <article class="case" id="sec-normal-dist-derivation-2-2"><h3 class="heading">Assumptions So Far.</h3>
 <ol class="decimal" id="sec-normal-dist-derivation-2-2-2">
 <li id="sec-normal-dist-derivation-2-2-2-1"><div class="para" id="sec-normal-dist-derivation-2-2-2-1-1"><em class="emphasis">Distribution is radially symmetric.</em></div></li>
-<li id="sec-normal-dist-derivation-2-2-2-2"><div class="para" id="sec-normal-dist-derivation-2-2-2-2-1"><em class="emphasis">Probability of landing in a small region is proportional to that region.</em></div></li>
+<li id="sec-normal-dist-derivation-2-2-2-2"><div class="para" id="sec-normal-dist-derivation-2-2-2-2-1"><em class="emphasis">Probability of landing in a small region is proportional to the size of that region.</em></div></li>
 <li id="sec-normal-dist-derivation-2-2-2-3"><div class="para" id="sec-normal-dist-derivation-2-2-2-3-1"><em class="emphasis">Probability of landing in a region monotonically decreases as the distance away from the origin increases.</em></div></li>
 </ol></article><div class="para logical" id="sec-normal-dist-derivation-2-3">
 <div class="para">From <a href="sec-normal-dist-derivation.html#ex-norm-1" class="xref" data-knowl="./knowl/xref/ex-norm-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Ex 7">Ex 7</a>, we have that</div>
@@ -162,7 +175,7 @@ window.MathJax = {
 g(x) = e^{Ax^2}
 \end{equation*}
 </div>
-<div class="para">where A is some constant. To ensure <span class="process-math">\(g\)</span> is a monotone decreasing function, we set</div>
+<div class="para">where A is some constant. To ensure <span class="process-math">\(g\)</span> is monotone decreasing, set</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/ex-norm-1.html">
 \begin{equation*}
 g(x) = e^{-h^2x^2}.
@@ -170,22 +183,109 @@ g(x) = e^{-h^2x^2}.
 </div>
 </div>
 <div class="para logical" id="sec-normal-dist-derivation-2-4">
-<div class="para">We now have a candidate <dfn class="terminology">probability density function (pdf)</dfn>
-</div>
+<div class="para">We now have a candidate <dfn class="terminology">probability density function (PDF)</dfn> for the <span class="process-math">\(x\)</span> coordinate</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \psi e^{-h^2x^2}.
 \end{equation*}
 </div>
+<div class="para">That is, the probability of the <span class="process-math">\(x\)</span> coordinate of the dart lying in an interval <span class="process-math">\([a,b]\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int_a^b f(x)dx.
+\end{equation*}
+</div>
 <div class="para">All that remains of our derivation is specifying the variables <span class="process-math">\(\psi\)</span> and <span class="process-math">\(h\text{.}\)</span> This is done by setting</div>
-<div class="displaymath process-math" id="sec-normal-dist-derivation-2-4-5">
+<div class="displaymath process-math">
+\begin{equation*}
+1 = \int_{-\infty}^\infty f(x) dx = \int_{-\infty}^\infty \psi e^{-h^2x^2} dx
+\end{equation*}
+</div>
+<div class="para">substituting <span class="process-math">\(u = hx\text{,}\)</span> the problem becomes</div>
+<div class="displaymath process-math" id="eqn-gauss-posed">
 \begin{equation}
-\int_{-\infty}^\infty f(x) dx = 1\tag{4}
+\int_{-\infty}^\infty e^{-u^2} dx = \frac{h}{\psi}.\tag{4}
 \end{equation}
 </div>
-</div></section></div>
+<div class="para">This is where we come across the <dfn class="terminology">Gaussian Integral</dfn>, an intergral imposibble to compute using standard techniques. Luckily for us, multivariable calculus provides all the tools we require.</div>
+</div>
+<section class="subsection" id="subsec-gauss"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Gaussian Integral</span>
+</h3>
+<div class="para logical" id="subsec-gauss-2">
+<div class="para">Set <span class="process-math">\(I = \int_{-\infty}^\infty e^{-x^2} dx \text{.}\)</span> Then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html">
+\begin{equation*}
+I^2 = \int_{-\infty}^\infty e^{-x^2} dx\cdot\int_{-\infty}^\infty e^{-y^2} dy.
+\end{equation*}
+</div>
+<div class="para">Since the integral <span class="process-math">\(\int_{-\infty}^\infty e^{-x^2} dx\)</span> is constant, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html">
+\begin{equation*}
+I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-x^2} dx\cdot e^{-y^2} dy.
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(e^{-y^2}\)</span> is constant with respect to <span class="process-math">\(x\text{,}\)</span> we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html">
+\begin{equation*}
+I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-x^2}\cdot e^{-y^2} dxdy.
+\end{equation*}
+</div>
+<div class="para">Simplifying the integrand leaves us with</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html">
+\begin{equation*}
+I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-(x^2+y^2)} dxdy.
+\end{equation*}
+</div>
+<div class="para">Now we want to make a <dfn class="terminology">change of variables</dfn> into polar coordinates.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html" id="eqn-polar">
+\begin{equation}
+\begin{cases}x  = r\text{ cos}(\theta) \\ 
+y = r\text{ sin}(\theta)\end{cases}\tag{5}
+\end{equation}
+</div>
+<div class="para">To do this, we must apply a scaling to the integrand (much as we would do for one-dimensional integration). For integration in higher dimensions, this manifests as the <dfn class="terminology">Jacobian</dfn>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html">
+\begin{equation*}
+\frac{\partial(x, y)}{\partial(r, \theta)}  = \left|
+\begin{matrix}
+\dfrac{\strut\partial x}{\strut\partial r} \amp \dfrac{\strut\partial x}{\strut\partial \theta}  \\
+\dfrac{\strut\partial y}{\strut\partial r} \amp \dfrac{\strut\partial y}{\strut\partial \theta}
+\end{matrix}
+\right| 
+\end{equation*}
+</div>
+<div class="para">substituting in <a href="sec-normal-dist-derivation-2.html#eqn-polar" class="xref" data-knowl="./knowl/xref/eqn-polar.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 5">(5)</a>, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html">
+\begin{equation*}
+\left|
+\begin{matrix}
+\cos(\theta) \amp -r\sin(\theta)  \\
+\sin(\theta) \amp r\cos(\theta)
+\end{matrix}
+\right|  \\
+= r\cos^2(\theta) + r\sin^2(\theta)  \\
+= r.
+\end{equation*}
+</div>
+<div class="para">By choosing appropriate bounds, we now complete the change of variables</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html" id="subsec-gauss-2-15">
+\begin{align*}
+I^2 =\amp \int_{0}^{2\pi} \int_{0}^\infty e^{-(r^2)} \cdot r \cdot drd\theta\\
+=\amp 2\pi \int_{0}^\infty re^{-(r^2)} dr\\
+=\amp 2\pi \bigg[-\frac{1}{2}e^{-r^2}\bigg]_0^\infty\\
+=\amp 2\pi \bigg(0 + \frac{1}{2}\bigg) = \pi.
+\end{align*}
+</div>
+<div class="para">This leaves us with the satisfying result</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-polar.html" id="eqn-gauss-solved">
+\begin{equation}
+I = \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}.\tag{6}
+\end{equation}
+</div>
+</div></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-normal-dist-derivation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-normal-dist-derivation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-normal-dist-derivation-3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
