@@ -54,6 +54,7 @@
     <projects level="2" />
     <equations level="2" />
     <footnotes level="2" />
+    <divisions part-structure="decorative" section-start="1" level="3"/>
   </numbering>
 
   <!-- LaTeX specific options: set @print="yes" to get pdf set up   -->

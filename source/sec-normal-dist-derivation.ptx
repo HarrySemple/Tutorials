@@ -8,21 +8,23 @@
   the plane look like?</p>
   <p>
     Assuming you're not a perfect shot, we would expect some variation -
-    a dense cluster at the centre that becomes gradually more sparse
-    the further away from the origin we look. We also expect is this distribution to be <term>radially symmetric.</term>
+    a dense cluster at the centre that thins out as we look
+    further away from the origin. We also expect is this scattering to be <term>radially symmetric.</term>
   </p>
   <p>
-    Let <m>dA\subset\mathbb{R}^2</m> be a small area in the plane. We can
+    Let <m>dA\subset\mathbb{R}^2</m> be a small region in the plane. We can
     model the probability on a dart landing in <m>dA</m> as
   </p>
   <mdn xml:id="eqn-norm-1">
     <mrow>\mathbb{P}(\text{dart lands in }dA) =\amp \phi(r)\lambda_2 (dA)</mrow>
   </mdn>
   <p>
-    where <m>\lambda_2(dA)</m> is the area of <m>dA</m>, 
-    <m>r = \sqrt{x^2+y^2}</m> and <m>\phi</m> is some <term>monotone decreasing</term>
+    where <m>\lambda_2(dA)</m> is the area of <m>dA</m> 
+    and <m>\phi</m> is some <term>monotone decreasing</term>
     funtion 
-    <m>\mathbb{R}_{\geq 0}\rightarrow\mathbb{R}_{>0}</m>. Note that <m>\theta</m>
+    <m>\mathbb{R}_{\geq 0}\rightarrow\mathbb{R}_{>0}</m>, with <m>r = \sqrt{x^2+y^2}</m> 
+    the distance away from the origin of a token point <m>(x,y)\in dA</m>.
+    Note that <m>\theta</m>
     doesn't appear in our model due to radial symmetry.
     
   </p>
@@ -39,7 +41,7 @@
     
   </aside>
   <p>
-    For a single dart, the <m>x</m> and <m>y</m> coordingates are
+    For a single dart, the <m>x</m> and <m>y</m> coordinates are
     independent, allowing us to introduce 
   </p>
   <me>\mathbb{P}(\text{dart lands in }dA) = \phi(r)\lambda_2 (dA) = 
@@ -52,7 +54,7 @@
     <mrow>\phi(\sqrt{x^2+y^2}) =\amp f(x)f(y).</mrow>
   </md>
   <p>
-    Setting <m>y=0, we have</m>
+    Setting <m>y=0</m>, we have
   </p><md>
     <mrow>\phi(x) =\amp f(x)f(0) = \psi f(x)</mrow>
   </md>
@@ -77,6 +79,29 @@
     <me>g(\sqrt{x^2+y^2}) = g(x)g(y).</me>
     Do we know what type of function <m>g</m> is likely to be? Can you think of an example?
   </p>
+  
+  <!--<subsection xml:id="subsec-assumptions">
+    <title>Assumptions So Far</title>
+    <ol>
+      <li>
+        <p>
+          number 1
+        </p>
+      </li>
+    </ol>
+  </subsection>
+  <subsubsection xml:id="subsubsec-Assumptions-1">
+    <title>Assumptions-1</title>
+    <ol>
+      <li>
+        <p>
+          hello
+        </p>
+      </li>
+    </ol>
+  </subsubsection>
+  -->
+
   <exercises xml:id="exercises-norm">
     <exercise>
       <p>
@@ -84,5 +109,10 @@
       </p>
     </exercise>
   </exercises>
+  <exercise>
+    <p>
+      hello
+    </p>
+  </exercise>
 
 </section>
