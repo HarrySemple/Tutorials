@@ -103,16 +103,30 @@
   -->
 
   <exercises xml:id="exercises-norm">
-    <exercise>
-      <p>
-        hello
-      </p>
-    </exercise>
   </exercises>
   <exercise>
     <p>
-      hello
+      Find a function <m>h(x)</m> that satisfies
+      <men xml:id="eqn-norm-ex-1">h(x+y) = h(x)h(y).</men>
+      What is the general form of functions that satisfy <xref ref="eqn-norm-ex-1"/>?
     </p>
+    <answer>
+      <p>
+        <me>h(x) = e^{Ax}</me>
+      </p>
+    </answer>
+  </exercise>
+  <exercise xml:id="ex-norm-1">
+    <p>
+      Find a function <m>g(x)</m> that satisfies
+      <men xml:id="eqn-norm-ex-2">g(\sqrt{x^2+y^2}) = g(x)g(y).</men>
+      What is the general form of functions that satisfy <xref ref="eqn-norm-ex-1"/>?
+    </p>
+    <answer>
+      <p>
+        <me>g(x) = e^{Ax^2}</me>
+      </p>
+    </answer>
   </exercise>
 
 </section>

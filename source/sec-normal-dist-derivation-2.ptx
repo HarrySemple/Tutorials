@@ -2,6 +2,40 @@
 
 <section xml:id="sec-normal-dist-derivation-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Normal Distribution II</title>
+  <case>
+    <title>Assumptions So Far</title>
+    <ol>
+      <li>
+        <p>
+          <em>Distribution is radially symmetric.</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Probability of landing in a small region is proportional to that region.</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Probability of landing in a region monotonically decreases as the distance away from the origin increases.</em>
+        </p>
+      </li>
+    </ol>
+    
+  </case>
+    <p>
+      From <xref ref="ex-norm-1"/>, we have that
+      <me>g(x) = e^{Ax^2}</me>
+      where A is some constant. To ensure <m>g</m> is a monotone decreasing function, we set
+      <me>g(x) = e^{-h^2x^2}.</me>
 
+    </p>
+    <p>
+      We now have a candidate <term>probability density function (pdf)</term>
+      <me>f(x) = \psi e^{-h^2x^2}.</me>
+      All that remains of our derivation is specifying the variables <m>\psi</m> and <m>h</m>. This is done by setting
+      <men>\int_{-\infty}^\infty f(x) dx = 1</men>
+
+    </p>
 
 </section>
