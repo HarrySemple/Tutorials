@@ -95,6 +95,9 @@ window.MathJax = {
 #sec-week-2-8-2-3 { counter-set: sec-week-2-8-2-3 0; }
 #sec-week-2-8-2-3 > li::marker { content: ""counter(sec-week-2-8-2-3,decimal)"."; }
 #sec-week-2-8-2-3 > li { counter-increment: sec-week-2-8-2-3; }
+#sec-normal-dist-derivation-2-2-2 { counter-set: sec-normal-dist-derivation-2-2-2 0; }
+#sec-normal-dist-derivation-2-2-2 > li::marker { content: ""counter(sec-normal-dist-derivation-2-2-2,decimal)"."; }
+#sec-normal-dist-derivation-2-2-2 > li { counter-increment: sec-normal-dist-derivation-2-2-2; }
 </style>
 </head>
 <body id="changeme" class="pretext book ignore-math">
@@ -125,31 +128,35 @@ window.MathJax = {
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-homework.html" class="internal"><span class="codenumber">1</span> <span class="title">Homework</span></a></div>
+<div class="toc-title-box"><a href="ch-homework.html" class="internal"><span class="title">Homework</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Week 1</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-week-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Week 2</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-1.html" class="internal"><span class="title">Week 1</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-week-2.html" class="internal"><span class="title">Week 2</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-examples.html" class="internal"><span class="codenumber">2</span> <span class="title">Examples</span></a></div>
+<div class="toc-title-box"><a href="ch-examples.html" class="internal"><span class="title">Derivations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-arc-length-derivation.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Arc Length</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-normal-dist-derivation.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-arc-length-derivation.html" class="internal"><span class="title">Arc Length</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation.html" class="internal"><span class="title">The Normal Distribution I</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-normal-dist-derivation.html#exercises-norm" class="internal"><span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html" class="internal"><span class="title">The Normal Distribution II</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-week-2"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Week 2</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Week 2</span>
 </h2>
 <div class="para" id="sec-week-2-2">Text of section.</div>
 <details id="sec-week-2-3" class="question example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Question</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+<span class="type">Question</span><span class="space"> </span><span class="codenumber">3</span><span class="period">.</span>
 </h3></summary><article class="question example-like knowl__content"><div class="para" id="sec-week-2-3-1">what is this?</div></article></details><details id="sec-week-2-4" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-week-2-4-1">hmmm</div></div></details><details id="sec-week-2-5" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-week-2-5-1">hmmmmm</div></div></details><details id="sec-week-2-6" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-week-2-6-1">here you go</div></div></details><details id="sec-week-2-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">question 1.</span>
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">4</span><span class="period">.</span><span class="space"> </span><span class="title">question 1.</span>
 </h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-week-2-7-2">hello</div></article></details><details id="sec-week-2-8" class="problem example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Arc Lengths.</span>
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">5</span><span class="period">.</span><span class="space"> </span><span class="title">Arc Lengths.</span>
 </h3></summary><article class="problem example-like knowl__content"><div class="para logical" id="sec-week-2-8-2">
 <div class="para">Find the arc length of <span class="process-math">\(f(x)\)</span>  along <span class="process-math">\([a,b]\text{.}\)</span>
 </div>

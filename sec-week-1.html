@@ -95,6 +95,9 @@ window.MathJax = {
 #sec-week-2-8-2-3 { counter-set: sec-week-2-8-2-3 0; }
 #sec-week-2-8-2-3 > li::marker { content: ""counter(sec-week-2-8-2-3,decimal)"."; }
 #sec-week-2-8-2-3 > li { counter-increment: sec-week-2-8-2-3; }
+#sec-normal-dist-derivation-2-2-2 { counter-set: sec-normal-dist-derivation-2-2-2 0; }
+#sec-normal-dist-derivation-2-2-2 > li::marker { content: ""counter(sec-normal-dist-derivation-2-2-2,decimal)"."; }
+#sec-normal-dist-derivation-2-2-2 > li { counter-increment: sec-normal-dist-derivation-2-2-2; }
 </style>
 </head>
 <body id="changeme" class="pretext book ignore-math">
@@ -125,27 +128,31 @@ window.MathJax = {
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-homework.html" class="internal"><span class="codenumber">1</span> <span class="title">Homework</span></a></div>
+<div class="toc-title-box"><a href="ch-homework.html" class="internal"><span class="title">Homework</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-week-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Week 1</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Week 2</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-week-1.html" class="internal"><span class="title">Week 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-2.html" class="internal"><span class="title">Week 2</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-examples.html" class="internal"><span class="codenumber">2</span> <span class="title">Examples</span></a></div>
+<div class="toc-title-box"><a href="ch-examples.html" class="internal"><span class="title">Derivations</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-arc-length-derivation.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Arc Length</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-normal-dist-derivation.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The Normal Distribution</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-arc-length-derivation.html" class="internal"><span class="title">Arc Length</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation.html" class="internal"><span class="title">The Normal Distribution I</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-normal-dist-derivation.html#exercises-norm" class="internal"><span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html" class="internal"><span class="title">The Normal Distribution II</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-week-1"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Week 1</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Week 1</span>
 </h2>
 <div class="para" id="sec-week-1-2">Problems For week 1, due <em class="alert">4pm Wednesday 9th October</em>.</div>
 <details id="sec-week-1-3" class="problem example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Arc Lengths.</span>
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span><span class="space"> </span><span class="title">Arc Lengths.</span>
 </h3></summary><article class="problem example-like knowl__content"><div class="para logical" id="sec-week-1-3-2">
 <div class="para">Find the arc length of <span class="process-math">\(f(x)\)</span>  along <span class="process-math">\([a,b]\text{.}\)</span>
 </div>
@@ -163,36 +170,36 @@ window.MathJax = {
 </div></li>
 </ol>
 </div>
-<details id="sec-week-1-3-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para logical" id="sec-week-1-3-3-1">
+<details id="sec-week-1-3-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span><span class="space"> </span><span class="title">All Problems</span></summary><div class="hint solution-like knowl__content"><div class="para logical" id="sec-week-1-3-3-2">
 <div class="para">The arc length formula is given by</div>
-<div class="displaymath process-math" id="sec-week-1-3-3-1-1">
+<div class="displaymath process-math" id="sec-week-1-3-3-2-1">
 \begin{align*}
 S = \int_a^b\sqrt{1+\bigg(\frac{dy}{dx}\bigg)^2}dx \amp 
 \end{align*}
 </div>
 <div class="para">The following identities are also useful</div>
-<div class="displaymath process-math" id="sec-week-1-3-3-1-2">
+<div class="displaymath process-math" id="sec-week-1-3-3-2-2">
 \begin{align*}
 \text{cosh}^2(x) - \text{sinh}^2(x) =\amp 1 \\
 \text{cosh}^2(x) + \text{sinh}^2(x) =\amp\text{cosh}(2x). 
 \end{align*}
 </div>
 <div class="para">These combine to give</div>
-<div class="displaymath process-math" id="sec-week-1-3-3-1-3">
+<div class="displaymath process-math" id="sec-week-1-3-3-2-3">
 \begin{align*}
 \text{cosh}^2(x) =\amp\frac{1}{2}(\text{cosh}(2x)+1) \\
 \text{sinh}^2(x) =\amp\frac{1}{2}(\text{cosh}(2x)-1). 
 \end{align*}
 </div>
 <div class="para">We also have</div>
-<div class="displaymath process-math" id="sec-week-1-3-3-1-4">
+<div class="displaymath process-math" id="sec-week-1-3-3-2-4">
 \begin{align*}
 \text{cosh}(\text{arsinh}(x)) =\amp\sqrt{x^2+1} \\
 \text{sinh}(\text{arcosh}(x)) =\amp\sqrt{x^2-1} 
 \end{align*}
 </div>
 <div class="para">and even</div>
-<div class="displaymath process-math" id="sec-week-1-3-3-1-5">
+<div class="displaymath process-math" id="sec-week-1-3-3-2-5">
 \begin{align*}
 \text{sin}(x) =\amp \text{sinh}(ix) \\
 \text{sinh}(x) =\amp \text{sin}(-ix) \\
@@ -202,7 +209,7 @@ S = \int_a^b\sqrt{1+\bigg(\frac{dy}{dx}\bigg)^2}dx \amp
 </div>
 </div></div></details><details id="sec-week-1-3-4" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span><span class="space"> </span><span class="title">Part (c).</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-week-1-3-4-2">Use the substitution <span class="process-math">\(2x + 3 = \sinh(\theta)\)</span>
 </div></div></details><details id="sec-week-1-3-5" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span><span class="space"> </span><span class="title">Part (d).</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-week-1-3-5-2">Nobody knows. </div></div></details></article></details><details id="sec-week-1-4" class="problem example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Question 3.</span>
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span><span class="space"> </span><span class="title">Question 3.</span>
 </h3></summary><article class="problem example-like knowl__content"><div class="para" id="sec-week-1-4-2">
 <em class="alert">(H)</em> Suppose a chain of length <span class="process-math">\(L\)</span> is suspended between two points <span class="process-math">\(x=-H\)</span> and <span class="process-math">\(x=H\text{,}\)</span> both of which are at height <span class="process-math">\(y = 1\text{.}\)</span> The shape of the chain is then given by <span class="process-math">\(y(x)\)</span> with <span class="process-math">\(y(-H) = y(H) = 1\text{.}\)</span> Assume the lowest part of the hanging chain is at the point <span class="process-math">\(x=0\)</span> so that <span class="process-math">\(y'(0) = 0\text{.}\)</span>
 </div></article></details></section></div>
