@@ -12,7 +12,7 @@
       </li>
       <li>
         <p>
-          <em>Probability of landing in a small region is proportional to that region.</em>
+          <em>Probability of landing in a small region is proportional to the size of that region.</em>
         </p>
       </li>
       <li>
@@ -26,16 +26,69 @@
     <p>
       From <xref ref="ex-norm-1"/>, we have that
       <me>g(x) = e^{Ax^2}</me>
-      where A is some constant. To ensure <m>g</m> is a monotone decreasing function, we set
+      where A is some constant. To ensure <m>g</m> is monotone decreasing, set
       <me>g(x) = e^{-h^2x^2}.</me>
 
     </p>
     <p>
-      We now have a candidate <term>probability density function (pdf)</term>
+      We now have a candidate <term>probability density function (pdf)</term> for the <m>x</m> coordinate
       <me>f(x) = \psi e^{-h^2x^2}.</me>
+      That is, the probability of the <m>x</m> coordinate of the dart lying in an interval <m>[a,b]</m> is given by
+      <me>\int_a^b f(x)dx.</me>
       All that remains of our derivation is specifying the variables <m>\psi</m> and <m>h</m>. This is done by setting
-      <men>\int_{-\infty}^\infty f(x) dx = 1</men>
+      <me>1 = \int_{-\infty}^\infty f(x) dx = \int_{-\infty}^\infty \psi e^{-h^2x^2} dx</me>
+      substituting <m>u = hx</m>, the problem becomes
+      <men>\int_{-\infty}^\infty e^{-u^2} dx = \frac{h}{\psi}.</men>
+      This is where we come across the <term>Gaussian Integral</term>, an intergral imposibble to compute using standard techniques.
+      Luckily for us, multivariable calculus provides all the tools we require. 
 
     </p>
+<subsection xml:id="subsec-gauss">
+  <title>The Gaussian Integral</title>
+  <p>
+    Set <m>I = \int_{-\infty}^\infty e^{-x^2} dx </m>. Then
+    <me>I^2 = \int_{-\infty}^\infty e^{-x^2} dx\cdot\int_{-\infty}^\infty e^{-y^2} dy.</me>
+    Since the integral <m>\int_{-\infty}^\infty e^{-x^2} dx</m> is constant, we have
+    <me>I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-x^2} dx\cdot e^{-y^2} dy.</me>
+    Since <m>e^{-y^2}</m> is constant with respect to <m>x</m>, we have
+    <me>I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-x^2}\cdot e^{-y^2} dxdy.</me>
+    Simplifying the integrand leaves us with
+    <me>I^2 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-(x^2+y^2)} dxdy.</me>
+    Now we want to make a <term>change of variables</term> into polar coordinates.
+    <men xml:id="eqn-polar">\begin{cases}x  = r\text{ cos}(\theta) \\ 
+      y = r\text{ sin}(\theta)\end{cases}</men>
 
+    To do this, we must apply a scaling to the integrand (much as we would do for one-dimensional integration). 
+    For integration in higher dimensions, this manifests as the <term>Jacobian</term>.
+    <me>
+      \frac{\partial(x, y)}{\partial(r, \theta)}  = \left|
+      \begin{matrix}
+      \dfrac{\strut\partial x}{\strut\partial r} \amp \dfrac{\strut\partial x}{\strut\partial \theta}  \\
+      \dfrac{\strut\partial y}{\strut\partial r} \amp \dfrac{\strut\partial y}{\strut\partial \theta}
+      \end{matrix}
+      \right| 
+      </me>
+      substituting in <xref ref="eqn-polar"/>, we have
+      <me>
+      \left|
+      \begin{matrix}
+      \cos(\theta) \amp -r\sin(\theta)  \\
+      \sin(\theta) \amp r\cos(\theta)
+      \end{matrix}
+      \right|  \\
+       = r\cos^2(\theta) + r\sin^2(\theta)  \\
+       = r.
+    </me>
+    By choosing appropriate bounds, we now complete the change of variables
+    <md>
+      <mrow>I^2 =\amp \int_{0}^{2\pi} \int_{0}^\infty e^{-(r^2)} \cdot r \cdot drd\theta</mrow>
+      <mrow> =\amp 2\pi \int_{0}^\infty re^{-(r^2)} dr</mrow>
+      <mrow> =\amp 2\pi \bigg[-\frac{1}{2}e^{-r^2}\bigg]_0^\infty</mrow>
+      <mrow> =\amp 2\pi \bigg(0 + \frac{1}{2}\bigg) = \pi.</mrow>
+    </md>
+    This leaves us with the satisfying result
+    <men xml:id="eqn-gauss-solved"> I = \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}.</men>
+  </p>
+
+</subsection>
 </section>

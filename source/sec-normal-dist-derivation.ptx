@@ -12,7 +12,7 @@
     further away from the origin. We also expect is this scattering to be <term>radially symmetric.</term>
   </p>
   <p>
-    Let <m>dA\subset\mathbb{R}^2</m> be a small region in the plane. We can
+    Let <m>dA\subset\mathbb{R}^2</m> be a <em>small</em> region in the plane. We can
     model the probability on a dart landing in <m>dA</m> as
   </p>
   <mdn xml:id="eqn-norm-1">
@@ -120,8 +120,13 @@
     <p>
       Find a function <m>g(x)</m> that satisfies
       <men xml:id="eqn-norm-ex-2">g(\sqrt{x^2+y^2}) = g(x)g(y).</men>
-      What is the general form of functions that satisfy <xref ref="eqn-norm-ex-1"/>?
+      What is the general form of functions that satisfy <xref ref="eqn-norm-ex-2"/>?
     </p>
+    <hint>
+      <p>
+        Stay with exponentials!
+      </p>
+    </hint>
     <answer>
       <p>
         <me>g(x) = e^{Ax^2}</me>

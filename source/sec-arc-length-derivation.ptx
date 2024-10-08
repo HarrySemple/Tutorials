@@ -3,6 +3,16 @@
 <section xml:id="sec-arc-length-derivation" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Arc Length</title>
 
-  <p> Text of section. </p>
+  <p>
+    For small sections of a curve we have that
+    <me>(\delta s)^2 \approx (\delta x)^2 + (\delta y)^2.</me>
+    Rearranging, this gives
+    <me>\frac{\delta s}{\delta x} \approx \sqrt{1 + \bigg(\frac{\delta y}{\delta x}\bigg)^2}.</me>
+    Sending <m>\delta x \rightarrow 0</m> gives us
+    <me>\frac{ds}{dx} = \sqrt{1 + \bigg(\frac{dy}{dx}\bigg)^2}.</me>
+    Finally, we integrate to obtain
+    <me>S(a,b) = \int_a^b \sqrt{1 + \bigg(\frac{dy}{dx}\bigg)^2}dx</me>
+
+  </p>
 
 </section>
