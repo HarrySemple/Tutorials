@@ -11,7 +11,7 @@
     Sending <m>\delta x \rightarrow 0</m> gives us
     <me>\frac{ds}{dx} = \sqrt{1 + \bigg(\frac{dy}{dx}\bigg)^2}.</me>
     Finally, we integrate to obtain
-    <me>S(a,b) = \int_a^b \sqrt{1 + \bigg(\frac{dy}{dx}\bigg)^2}dx</me>
+    <me>S(a,b) = \int_a^b \sqrt{1 + \bigg(\frac{dy}{dx}\bigg)^2}dx.</me>
 
   </p>
 

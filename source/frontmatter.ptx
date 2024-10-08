@@ -7,27 +7,14 @@
   <titlepage>
     <author>
       <personname>Harry Semple</personname>
-      <department>Mathematical Sciences</department>
+      <department>Department of Mathematical Sciences</department>
       <institution>University of Bath</institution>
+      <email>has65@bath.ac.uk</email>
     </author>
     <date>
       <today />
     </date>
   </titlepage>
 
-  <colophon>
-    <!--
-    <website>
-      <url href="https://pretextbook.org">My website</url>
-    </website>
-    -->
-
-    <copyright>
-      <year>2024</year>
-      <holder>Harry Semple</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0">CreativeCommons.org</url>
-      </shortlicense>
-    </copyright>
-  </colophon>
 </frontmatter>
 
