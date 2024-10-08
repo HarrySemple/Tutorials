@@ -25,13 +25,13 @@
         <p>
           <alert>(H)</alert> <m>f(x) = \dfrac{3x}{(x-3)^2}</m>
         </p>
+        <solution>
+          <p>
+            <interactive desmos="5twcowou5e" width="60%" aspect="2:3" />
+          </p>
+        </solution>
       </li>
     </ol>
-    <solution>
-      <p>
-        <url href="https://www.desmos.com/calculator">Desmos</url>
-      </p>
-    </solution>
   </exercise>
   <exercise>
     <title>Question 4</title>
@@ -62,7 +62,9 @@
             </md>
             Rearranging, 
             <me> \implies r = \frac{2}{3\sqrt{\sin(2\theta)}}.</me>
+            
           </p>
+          <interactive desmos="gi8bp68vj2" width="60%" aspect="2:3" />
         </solution>
       </li>
       <li>
@@ -76,6 +78,7 @@
             Taking the positive square-root and reearranging
             <me>r = 3(1 - \cos(\theta)).</me>
           </p>
+          <interactive desmos="ewu7wtpszy" width="60%" aspect="2:3" />
         </solution>
       </li>
     </ol>
