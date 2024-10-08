@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-normal-dist-derivation-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Normal Distribution III</title>
+  <subsection xml:id="subsec-spec-var">
+    <title>Specifying Variables</title>
+    <p>
+      Combining <xref ref="eqn-gauss-posed"/> and <xref ref="eqn-gauss-solved"/>, we have
+      <me>h = \psi \sqrt{\pi}.</me>
+      Thus, our PDF can be simplifiied as 
+      <me>f(x) = \psi e^{-\pi\psi^2 x^2}.</me>
+    </p>
+    <p>
+      Our new aim is to write the <term>variance</term> in terms of the PDF, defined as
+      <me>\sigma^2 = \int_{-\infty}^\infty (x-\mu)^2 f(x) dx</me>
+      where <m>\mu</m> is the mean, which is <m>x=0</m> in our darts paradigm. Thus
+      <md>
+        <mrow>\sigma^2 =\amp \psi \int_{-\infty}^\infty x^2 e^{-\pi\psi^2 x^2} dx</mrow>
+        <mrow> =\amp \psi\bigg[-\frac{x}{2\pi\psi^2}e^{-\pi\psi^2 x^2} \bigg]_{-\infty}^\infty 
+          + \frac{1}{2\pi\psi}\int_{-\infty}^\infty e^{-\pi\psi^2 x^2} dx</mrow>
+        <mrow> =\amp \frac{1}{2\pi\psi}\int_{-\infty}^\infty f(x) dx </mrow>
+        <mrow> =\amp \frac{1}{2\pi\psi}.</mrow>
+      </md>
+      This gives the relation
+      <men>\psi = \frac{1}{\sigma\sqrt{2\pi}}.</men>
+      Thus, 
+      <me>f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{x^2}{2\sigma^2}}.</me>
+      Lastly, we take into account cases where we have a non-zero mean. This refers to a translation along the <m>x</m> axis,
+      giving us a final PDF of
+      <men xml:id="eqn-norm-dist">
+        f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}.
+      </men>
+      <!--<url href="https://www.desmos.com/calculator/jv7dxuipvd">See it for yourself.</url>-->
+      See it for yourself!
+    </p>
+    <interactive desmos="jv7dxuipvd" width="60%" aspect="2:3" />
+  </subsection>
+
+  <p>
+  </p>
+
+</section>

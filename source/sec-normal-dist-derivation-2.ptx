@@ -31,14 +31,14 @@
 
     </p>
     <p>
-      We now have a candidate <term>probability density function (pdf)</term> for the <m>x</m> coordinate
+      We now have a candidate <term>probability density function (PDF)</term> for the <m>x</m> coordinate
       <me>f(x) = \psi e^{-h^2x^2}.</me>
       That is, the probability of the <m>x</m> coordinate of the dart lying in an interval <m>[a,b]</m> is given by
       <me>\int_a^b f(x)dx.</me>
       All that remains of our derivation is specifying the variables <m>\psi</m> and <m>h</m>. This is done by setting
       <me>1 = \int_{-\infty}^\infty f(x) dx = \int_{-\infty}^\infty \psi e^{-h^2x^2} dx</me>
       substituting <m>u = hx</m>, the problem becomes
-      <men>\int_{-\infty}^\infty e^{-u^2} dx = \frac{h}{\psi}.</men>
+      <men xml:id="eqn-gauss-posed">\int_{-\infty}^\infty e^{-u^2} dx = \frac{h}{\psi}.</men>
       This is where we come across the <term>Gaussian Integral</term>, an intergral imposibble to compute using standard techniques.
       Luckily for us, multivariable calculus provides all the tools we require. 
 

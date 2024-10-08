@@ -11,5 +11,6 @@
   <xi:include href="sec-arc-length-derivation.ptx" />
   <xi:include href="sec-normal-dist-derivation.ptx" />
   <xi:include href="sec-normal-dist-derivation-2.ptx" />
+  <xi:include href="sec-normal-dist-derivation-3.ptx" />
 
 </chapter>
