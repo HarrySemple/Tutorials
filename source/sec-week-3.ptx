@@ -11,13 +11,13 @@
       <ol marker="(a)">
         <li>
           <p>
-            <me>z = f(x,y) = 1/y, x \ge 0, y > 0</me>
+            <m>z = f(x,y) = 1/y, x \ge 0, y > 0</m>
           </p>
         </li>
         <li>
           <p>
             <alert>(H)</alert>
-            <me>z = f(x,y) = y^2 + x, x \ge 0</me>
+            <m>z = f(x,y) = y^2 + x, x \ge 0</m>
           </p>
           <solution>
             <p>
@@ -29,12 +29,74 @@
         </li>
         <li>
           <p>
-            <me>z = f(x,y) = \sqrt{25 - x^2}, y \ge 0</me>
+            <m>z = f(x,y) = \sqrt{25 - x^2}, y \ge 0</m>
           </p>
         </li>
       </ol>
     </p>
   </exercise>
-  
+  <exercise>
+    <title>Question 2</title>
+    
+    <p>
+      Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. 
+      Briefly outline the process by which you constructed your sketch.
+    <ol marker="(a)">
+      <li>
+        <p>
+          <m>x^2 + y^2 = 9, z \ge 0</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>x^2 + y^2 = 4z, z \ge 0</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert>
+          <m>r^2\cos(2\theta) + z^2 + 1 = 0</m>
+        </p>
+        <solution>
+          <p>
+            <image source="ps3q2.png">
+            </image>
+          </p>
+        </solution>
+      </li>
+    </ol>
+    </p>
+  </exercise>
+  <exercise>
+    <title>Question 3</title>
+    <p>
+      Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. 
+      Briefly outline the process by which you constructed your sketch.
+    </p>
+    <ol marker="(a)">
+      <li>
+        <p>
+          <alert>(H)</alert>
+          <m>\theta = c, 0 \le \varphi \le \pi/2</m>
+        </p>
+        <solution>
+          <p>
+            <image source="ps3q3.png">
+            </image>
+          </p>
+        </solution>
+      </li>
+      <li>
+        <p>
+          <m>\varphi = c</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\rho = 4\cos(\varphi)</m>
+        </p>
+      </li>
+    </ol>
+  </exercise>
 
 </section>
