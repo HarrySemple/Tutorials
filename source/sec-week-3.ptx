@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-week-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Week 3</title>
+
+  <exercise>
+    <title>Question 1</title>
+    <p>
+      Sketch the surface defined in rectangular coordinates by each of these functions. 
+      Briefly outline the process by which you constructed your sketch.
+      <ol marker="(a)">
+        <li>
+          <p>
+            <me>z = f(x,y) = 1/y, x \ge 0, y > 0</me>
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>(H)</alert>
+            <me>z = f(x,y) = y^2 + x, x \ge 0</me>
+          </p>
+          <solution>
+            <p>
+              <image source="Snowboarding_Torino_2006.jpg">
+                <shortdescription>(2006 Winter Olympics halfpipe)</shortdescription>
+              </image>
+            </p>
+          </solution>
+        </li>
+        <li>
+          <p>
+            <me>z = f(x,y) = \sqrt{25 - x^2}, y \ge 0</me>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </exercise>
+  
+
+</section>

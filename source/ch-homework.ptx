@@ -11,5 +11,7 @@
   <!-- include sections -->
   <xi:include href="sec-week-1.ptx" />
   <xi:include href="sec-week-2.ptx" />
+  <xi:include href="sec-week-3.ptx" />
+
 
 </chapter>
