@@ -73,6 +73,42 @@ var ptx_lunr_docs = [
   "body": "Question 4 For each of the following curves, convert the equation from rectangular to polar coordinates and sketch it.              (H)     We have Rearranging,        (H)       Taking the positive square-root and reearranging      "
 },
 {
+  "id": "sec-week-3",
+  "level": "1",
+  "url": "sec-week-3.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 3",
+  "body": " Week 3  Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)             Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)             Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                      "
+},
+{
+  "id": "sec-week-3-2",
+  "level": "2",
+  "url": "sec-week-3.html#sec-week-3-2",
+  "type": "Ex",
+  "number": "6",
+  "title": "Question 1.",
+  "body": "Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)            "
+},
+{
+  "id": "sec-week-3-3",
+  "level": "2",
+  "url": "sec-week-3.html#sec-week-3-3",
+  "type": "Ex",
+  "number": "7",
+  "title": "Question 2.",
+  "body": "Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)            "
+},
+{
+  "id": "sec-week-3-4",
+  "level": "2",
+  "url": "sec-week-3.html#sec-week-3-4",
+  "type": "Ex",
+  "number": "8",
+  "title": "Question 3.",
+  "body": "Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                     "
+},
+{
   "id": "sec-arc-length-derivation",
   "level": "1",
   "url": "sec-arc-length-derivation.html",
@@ -113,7 +149,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#sec-normal-dist-derivation-20",
   "type": "Ex",
-  "number": "6",
+  "number": "9",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?     "
 },
@@ -122,7 +158,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#ex-norm-1",
   "type": "Ex",
-  "number": "7",
+  "number": "10",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?  Stay with exponentials!      "
 },
