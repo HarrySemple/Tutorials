@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Front Matter",
   "number": "",
   "title": "Front Matter",
-  "body": "   Harry Semple  Department of Mathematical Sciences  University of Bath  has65@bath.ac.uk       "
+  "body": "   Harry Semple  Department of Mathematical Sciences  University of Bath  has65@bath.ac.uk   Autumn 2024   "
 },
 {
   "id": "sec-week-1",
