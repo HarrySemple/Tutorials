@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 2",
-  "body": " Week 2  Problems from week 2, due 1pm Tuesday 15th October .  Question 2 Sketch each of the following functions . Carefully explain each step of the construction. Check your answer using Desmos.              (H)           Question 4 For each of the following curves, convert the equation from rectangular to polar coordinates and sketch it.              (H)     We have Rearranging,        (H)       Taking the positive square-root and reearranging       "
+  "body": " Week 2  Problems from week 2, due 1pm Tuesday 15th October .  Question 2 Sketch each of the following functions . Carefully explain each step of the construction. Check your answer using Desmos.              (H)           Question 4 For each of the following curves, convert the equation from rectangular to polar coordinates and sketch it.              (H)     We have Rearranging,        (H)       Taking the positive square-root and reearranging     Non-Examinable. Another way to think of this shape is a circle rolling around another circle.      "
 },
 {
   "id": "sec-week-2-3",
@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Ex",
   "number": "5",
   "title": "Question 4.",
-  "body": "Question 4 For each of the following curves, convert the equation from rectangular to polar coordinates and sketch it.              (H)     We have Rearranging,        (H)       Taking the positive square-root and reearranging      "
+  "body": "Question 4 For each of the following curves, convert the equation from rectangular to polar coordinates and sketch it.              (H)     We have Rearranging,        (H)       Taking the positive square-root and reearranging     Non-Examinable. Another way to think of this shape is a circle rolling around another circle.     "
 },
 {
   "id": "sec-week-3",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 3",
-  "body": " Week 3  Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)             Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)             Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                      "
+  "body": " Week 3  Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)             Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)              Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                       "
 },
 {
   "id": "sec-week-3-2",
@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Ex",
   "number": "7",
   "title": "Question 2.",
-  "body": "Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)            "
+  "body": "Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)             "
 },
 {
   "id": "sec-week-3-4",
@@ -106,7 +106,43 @@ var ptx_lunr_docs = [
   "type": "Ex",
   "number": "8",
   "title": "Question 3.",
-  "body": "Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                     "
+  "body": "Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                      "
+},
+{
+  "id": "sec-week-4",
+  "level": "1",
+  "url": "sec-week-4.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 4",
+  "body": " Week 4  Question 4 Consider the function     (H) Show that has only one critical point, and that it is a local maximum.          (H) Show that this local maximum is not a global maximum for .         Use Geogebra 3D or Desmos 3D to plot the surface defined by and check your answers in (b).     Question 5 Consider the function    Use Geogebra3D to plot the surface defined by .     (H) Find the critical point of . Show that the second partials test to determine whether the crtical point is a local maximum, local minimum, or saddle point is inconclusive. Explain briefly why you think the test is inconclusive for this particular critical point.     (H) Show that the critical point you found in part (a) is a global minimum.     (H) Find or construct an example of a function with a local maximum that the second partials test cannot detect.     (H) Find or construct an example of a function with a saddle point that the second partials test cannot detect.    Question 6  (H) A function is said to be harmonic if it satisfies Laplace's equation:  Harmonic functions are used to model various physical quantities, including electric and magnetic fields, fluid flows, and steady-state temperature distributions. Determine whether the following functions are harmonic:             "
+},
+{
+  "id": "sec-week-4-2",
+  "level": "2",
+  "url": "sec-week-4.html#sec-week-4-2",
+  "type": "Ex",
+  "number": "9",
+  "title": "Question 4.",
+  "body": "Question 4 Consider the function     (H) Show that has only one critical point, and that it is a local maximum.          (H) Show that this local maximum is not a global maximum for .         Use Geogebra 3D or Desmos 3D to plot the surface defined by and check your answers in (b).    "
+},
+{
+  "id": "sec-week-4-3",
+  "level": "2",
+  "url": "sec-week-4.html#sec-week-4-3",
+  "type": "Ex",
+  "number": "10",
+  "title": "Question 5.",
+  "body": "Question 5 Consider the function    Use Geogebra3D to plot the surface defined by .     (H) Find the critical point of . Show that the second partials test to determine whether the crtical point is a local maximum, local minimum, or saddle point is inconclusive. Explain briefly why you think the test is inconclusive for this particular critical point.     (H) Show that the critical point you found in part (a) is a global minimum.     (H) Find or construct an example of a function with a local maximum that the second partials test cannot detect.     (H) Find or construct an example of a function with a saddle point that the second partials test cannot detect.   "
+},
+{
+  "id": "sec-week-4-4",
+  "level": "2",
+  "url": "sec-week-4.html#sec-week-4-4",
+  "type": "Ex",
+  "number": "11",
+  "title": "Question 6.",
+  "body": "Question 6  (H) A function is said to be harmonic if it satisfies Laplace's equation:  Harmonic functions are used to model various physical quantities, including electric and magnetic fields, fluid flows, and steady-state temperature distributions. Determine whether the following functions are harmonic:            "
 },
 {
   "id": "sec-arc-length-derivation",
@@ -124,7 +160,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "The Normal Distribution I",
-  "body": " The Normal Distribution I  Imagine you are throwing darts onto the -plane, aiming for the origin . After hundereds of darts, what does the plane look like?  Assuming you're not a perfect shot, we would expect some variation - a dense cluster at the centre that thins out further away from the origin. We also expect is the scattering to be radially symmetric.   Let be a small region in the plane. We can model the probability on a dart landing in as   where is the area of and is some monotone decreasing funtion , with the distance away from the origin of a token point . Note that doesn't appear in our model due to radial symmetry.   Is it measurable?   is known as the 2D Lebesgue measure. Precisely defining this function has to be done with extreme care in order to avoid paradoxes caused by certain difficult (non-measurable) subsets of . More detail can be found here .   For a single dart, the and coordinates are independent, allowing us to introduce   where is another monotone decreasing function, with the relation   Setting , we have  where is some constant. Thus,   dividing through by , we have  Define such that . We have that satisfies Do we know what type of function is likely to be? Can you think of an example?     Find a function that satisfies What is the general form of functions that satisfy ?      Find a function that satisfies What is the general form of functions that satisfy ?  Stay with exponentials!       "
+  "body": " The Normal Distribution I  Imagine you are throwing darts onto the -plane, aiming for the origin . After hundereds of darts, what does the plane look like?  Assuming you're not a perfect shot, we would expect some variation - a dense cluster at the centre that thins out further away from the origin. We also expect the scattering to be radially symmetric.   Let be a small region in the plane. We can model the probability of a dart landing in as   where is the area of and is some monotone decreasing funtion , with the distance away from the origin of a token point . Note that doesn't appear in our model due to radial symmetry.   Is it measurable?   is known as the 2D Lebesgue measure. Precisely defining this function has to be done with extreme care in order to avoid paradoxes caused by certain difficult (non-measurable) subsets of . More detail can be found here .   For a single dart, the and coordinates are independent, allowing us to introduce   where is another monotone decreasing function, with the relation   Setting , we have  where is some constant. Thus,   dividing through by , we have  Define such that . We have that satisfies Do we know what type of function is likely to be? Can you think of an example?     Find a function that satisfies What is the general form of functions that satisfy ?      Find a function that satisfies What is the general form of functions that satisfy ?  Stay with exponentials!       "
 },
 {
   "id": "sec-normal-dist-derivation-3",
@@ -149,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#sec-normal-dist-derivation-20",
   "type": "Ex",
-  "number": "9",
+  "number": "12",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?     "
 },
@@ -158,7 +194,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#ex-norm-1",
   "type": "Ex",
-  "number": "10",
+  "number": "13",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?  Stay with exponentials!      "
 },

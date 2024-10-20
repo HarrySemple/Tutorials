@@ -110,6 +110,15 @@ window.MathJax = {
 #sec-week-3-4-3 { counter-set: sec-week-3-4-3 0; }
 #sec-week-3-4-3 > li::marker { content: "("counter(sec-week-3-4-3,lower-alpha)")"; }
 #sec-week-3-4-3 > li { counter-increment: sec-week-3-4-3; }
+#sec-week-4-2-2-2 { counter-set: sec-week-4-2-2-2 0; }
+#sec-week-4-2-2-2 > li::marker { content: "("counter(sec-week-4-2-2-2,lower-alpha)")"; }
+#sec-week-4-2-2-2 > li { counter-increment: sec-week-4-2-2-2; }
+#sec-week-4-3-3 { counter-set: sec-week-4-3-3 0; }
+#sec-week-4-3-3 > li::marker { content: "("counter(sec-week-4-3-3,lower-alpha)")"; }
+#sec-week-4-3-3 > li { counter-increment: sec-week-4-3-3; }
+#sec-week-4-4-4 { counter-set: sec-week-4-4-4 0; }
+#sec-week-4-4-4 > li::marker { content: "("counter(sec-week-4-4-4,lower-alpha)")"; }
+#sec-week-4-4-4 > li { counter-increment: sec-week-4-4-4; }
 #sec-normal-dist-derivation-2-2-2 { counter-set: sec-normal-dist-derivation-2-2-2 0; }
 #sec-normal-dist-derivation-2-2-2 > li::marker { content: ""counter(sec-normal-dist-derivation-2-2-2,decimal)"."; }
 #sec-normal-dist-derivation-2-2-2 > li { counter-increment: sec-normal-dist-derivation-2-2-2; }
@@ -148,6 +157,7 @@ window.MathJax = {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-1.html" class="internal"><span class="title">Week 1</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-2.html" class="internal"><span class="title">Week 2</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-3.html" class="internal"><span class="title">Week 3</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-4.html" class="internal"><span class="title">Week 4</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
@@ -174,9 +184,9 @@ window.MathJax = {
 <span class="type">Section</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">The Normal Distribution I</span>
 </h2>
 <div class="para" id="sec-normal-dist-derivation-2">Imagine you are throwing darts onto the <span class="process-math">\(\mathbb{R}^2\)</span>-plane, aiming for the origin <span class="process-math">\((0,0)\text{.}\)</span> After hundereds of darts, what does the plane look like?</div>
-<div class="para" id="sec-normal-dist-derivation-3">Assuming you’re not a perfect shot, we would expect some variation - a dense cluster at the centre that thins out further away from the origin. We also expect is the scattering to be <dfn class="terminology">radially symmetric.</dfn>
+<div class="para" id="sec-normal-dist-derivation-3">Assuming you’re not a perfect shot, we would expect some variation - a dense cluster at the centre that thins out further away from the origin. We also expect the scattering to be <dfn class="terminology">radially symmetric.</dfn>
 </div>
-<div class="para" id="sec-normal-dist-derivation-4">Let <span class="process-math">\(dA\subset\mathbb{R}^2\)</span> be a <em class="emphasis">small</em> region in the plane. We can model the probability on a dart landing in <span class="process-math">\(dA\)</span> as</div>
+<div class="para" id="sec-normal-dist-derivation-4">Let <span class="process-math">\(dA\subset\mathbb{R}^2\)</span> be a <em class="emphasis">small</em> region in the plane. We can model the probability of a dart landing in <span class="process-math">\(dA\)</span> as</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-norm-ex-1.html ./knowl/xref/eqn-norm-ex-2.html" id="eqn-norm-1">
 \begin{align}
 \mathbb{P}(\text{dart lands in }dA) =\amp \phi(r)\lambda_2 (dA)\tag{1}
@@ -185,7 +195,7 @@ window.MathJax = {
 <div class="para" id="sec-normal-dist-derivation-6">where <span class="process-math">\(\lambda_2(dA)\)</span> is the area of <span class="process-math">\(dA\)</span> and <span class="process-math">\(\phi\)</span> is some <dfn class="terminology">monotone decreasing</dfn> funtion <span class="process-math">\(\mathbb{R}_{\geq 0}\rightarrow\mathbb{R}_{&gt;0}\text{,}\)</span> with <span class="process-math">\(r = \sqrt{x^2+y^2}\)</span> the distance away from the origin of a token point <span class="process-math">\((x,y)\in dA\text{.}\)</span> Note that <span class="process-math">\(\theta\)</span> doesn’t appear in our model due to radial symmetry.</div>
 <aside class="aside aside-like" id="sec-normal-dist-derivation-7"><h3 class="heading"><span class="title">Is it measurable?</span></h3>
 <div class="para" id="sec-normal-dist-derivation-7-2">
-<span class="process-math">\(\lambda_2\)</span> is known as the 2D Lebesgue measure. <em class="emphasis">Precisely</em> defining this function has to be done with extreme care in order to avoid paradoxes caused by <em class="emphasis">certain difficult</em> (non-measurable) subsets of <span class="process-math">\(\mathbb{R}^2\text{.}\)</span> More detail can be found <a class="external" href="https://people.bath.ac.uk/masmdp/measdir.bho/notesp1to10.pdf" target="_blank">here</a><details class="ptx-footnote" aria-live="polite" id="sec-normal-dist-derivation-7-2-6"><summary class="ptx-footnote__number" title="Footnote 1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-normal-dist-derivation-7-2-6"><code class="code-inline tex2jax_ignore">people.bath.ac.uk/masmdp/measdir.bho/notesp1to10.pdf</code></div></details>.</div></aside><div class="para" id="sec-normal-dist-derivation-8">For a single dart, the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> coordinates are independent, allowing us to introduce</div>
+<span class="process-math">\(\lambda_2\)</span> is known as the 2D Lebesgue measure. <em class="emphasis">Precisely</em> defining this function has to be done with extreme care in order to avoid paradoxes caused by <em class="emphasis">certain difficult</em> (non-measurable) subsets of <span class="process-math">\(\mathbb{R}^2\text{.}\)</span> More detail can be found <a class="external" href="https://people.bath.ac.uk/masmdp/measdir.bho/notesp1to10.pdf" target="_blank">here</a><details class="ptx-footnote" aria-live="polite" id="sec-normal-dist-derivation-7-2-6"><summary class="ptx-footnote__number" title="Footnote 3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="sec-normal-dist-derivation-7-2-6"><code class="code-inline tex2jax_ignore">people.bath.ac.uk/masmdp/measdir.bho/notesp1to10.pdf</code></div></details>.</div></aside><div class="para" id="sec-normal-dist-derivation-8">For a single dart, the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> coordinates are independent, allowing us to introduce</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-norm-ex-1.html ./knowl/xref/eqn-norm-ex-2.html">
 \begin{equation*}
 \mathbb{P}(\text{dart lands in }dA) = \phi(r)\lambda_2 (dA) = 
@@ -230,7 +240,7 @@ g(\sqrt{x^2+y^2}) = g(x)g(y).
 <section class="exercises" id="exercises-norm"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
 </h3></section><details id="sec-normal-dist-derivation-20" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Ex</span><span class="space"> </span><span class="codenumber">9</span><span class="period">.</span>
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">12</span><span class="period">.</span>
 </h3></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="sec-normal-dist-derivation-20-1">
 <div class="para">Find a function <span class="process-math">\(h(x)\)</span> that satisfies</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-norm-ex-1.html" id="eqn-norm-ex-1">
@@ -245,7 +255,7 @@ h(x+y) = h(x)h(y).\tag{2}
 h(x) = e^{Ax}
 \end{equation*}
 </div></div></div></details></article></details><details id="ex-norm-1" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Ex</span><span class="space"> </span><span class="codenumber">10</span><span class="period">.</span>
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">13</span><span class="period">.</span>
 </h3></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="ex-norm-1-1">
 <div class="para">Find a function <span class="process-math">\(g(x)\)</span> that satisfies</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-norm-ex-2.html" id="eqn-norm-ex-2">
