@@ -79,6 +79,10 @@
             <me>r = 3(1 - \cos(\theta)).</me>
           </p>
           <interactive desmos="ewu7wtpszy" width="60%" aspect="2:3" />
+          <p>
+          <alert>Non-Examinable.</alert> Another way to think of this shape is a circle rolling around another circle.
+          </p>
+          <interactive geogebra="bdrshbkz" width="78%" aspect="6:5" />
         </solution>
       </li>
     </ol>

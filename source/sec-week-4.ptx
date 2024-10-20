@@ -14,6 +14,10 @@
           </p>
           
           <solution>
+            
+            <image source="hardThink3.jpg" width="50%"> 
+            </image>
+            <!--
             <p>
               <md>
                 <mrow> f_x(x, y) \amp  = 3e^y - 3x^2, </mrow>
@@ -42,6 +46,7 @@
               so  <m>(1,0)</m> is a local extremum. 
               Now, <m> f_{xx}(1,0)= - 6 </m>, so it is a local maximum.
             </p>
+          -->
           </solution>
         </li>
         <li>
@@ -49,6 +54,27 @@
             <alert>(H)</alert>
             Show that this local maximum is not a global maximum for <m>f</m>.
           </p>
+          <solution>
+            
+            <image source="hardThink3.jpg" width="50%"> 
+            </image>
+            <!--
+            <p>
+              The value of  <m>f</m> at this local maximum is <m>f(1,0)=3−1−1=1 </m>. 
+              So, to show that this is not an global maximum, we just need to find <m>(x,y)</m> 
+              such that <m>f(x,y)>f(1,0)=1</m>. There are infinitely many points where this is true, 
+              but randomly trying values of <m>x</m> and <m>y</m> is not an efficient method of finding one.
+              Here is the reasoning I used: the local maximum lies on the line <m>y=0</m>, where <m>f(x,0)=3x−x^3−1</m>. 
+              If we pick a negative value of <m>x</m> with a large modulus, then the  <m>-x^3</m> that appears 
+              in this expression with be a large positive number, giving a value of <m>f(x,y)</m> greater than <m>1</m>. 
+              So, for example, try
+              <me>
+                f(-10, 0) = -30 - (-1000) - 1 = 969.
+              </me>
+              Thus <m>f(-10, 0) = 969 > 1 = f(1, 0)</m>,  the local maximum at <m>(1,0)</m> is not a global maximum.
+            </p>
+            -->
+          </solution>
         </li>
         <li>
           <p>
@@ -57,6 +83,66 @@
         </li>
       </ol>
     </p>
+  </exercise>
+  <exercise>
+    <title>Question 5</title>
+    <p>
+      Consider the function <m>f(x, y) = x^4 + y^4</m>
+    </p>
+    <ol marker="(a)">
+      <li>
+        <p>
+          Use Geogebra3D to plot the surface defined by <m>f(x,y)</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> Find the critical point of <m>f</m>. 
+          Show that the second partials test to determine whether the crtical point is a local maximum, local minimum, or saddle point is inconclusive. 
+          Explain briefly why you think the test is inconclusive for this particular critical point.
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> Show that the critical point you found in part (a) is a global minimum.
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> Find or construct an example of a function with a local maximum that the second partials test cannot detect.
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> Find or construct an example of a function with a saddle point that the second partials test cannot detect.
+        </p>
+      </li>
+    </ol>
+  </exercise>
+  <exercise>
+    <title>Question 6</title>
+    <p>
+      <alert>(H)</alert> A function <m>f(x,y)</m> is said to be <term>harmonic</term> if it satisfies <term>Laplace's equation:</term>
+      <me>
+        \Delta f := \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} = 0.
+      </me>
+      Harmonic functions are used to model various physical quantities, including electric and magnetic fields, fluid flows, and steady-state temperature distributions.
+    </p>
+    <p>
+      Determine whether the following functions are harmonic:
+    </p>
+    <ol marker="(a)">
+      <li>
+        <p>
+          <m>f(x, y) = e^{kx}\cos(ky)</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f(x, y) = \ln(x^2 + y^2) + 2\arctan(y/x)</m>
+        </p>
+      </li>
+    </ol>
   </exercise>
 
 </section>
