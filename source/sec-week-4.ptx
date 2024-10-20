@@ -35,13 +35,13 @@
                 <mrow>  f_{yy}(x, y) \amp = 3xe^y - 9e^{3y},  </mrow>
                 <mrow>f_{xy}(x, y) \amp = 3e^y. </mrow>
               </md>
+              Hence the determinant is
+              <me>D = - 6x(3xe^y - 9e^{3y}) - 9e^{2y}.</me>
+              At the point <m>(1,0)</m>, this is
+              <me> (-6)\times(3 - 9) - 9 = 27 > 0,</me>
+              so  <m>(1,0)</m> is a local extremum. 
+              Now, <m> f_{xx}(1,0)= - 6 </m>, so it is a local maximum.
             </p>
-            Hence the determinant is
-            <me>D = - 6x(3xe^y - 9e^{3y}) - 9e^{2y}.</me>
-            At the point <m>(1,0)</m>, this is
-            <me> (-6)\times(3 - 9) - 9 = 27 > 0,</me>
-            so  <m>(1,0)</m> is a local extremum. 
-            Now, <m> f_{xx}(1,0)= - 6<0 </m>, so it is a local maximum.
           </solution>
         </li>
         <li>
@@ -57,71 +57,6 @@
         </li>
       </ol>
     </p>
-  </exercise>
-  <exercise>
-    <title>Question 2</title>
-    
-    <p>
-      Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, 
-      and sketch it using whichever coordinate system you prefer. 
-      Briefly outline the process by which you constructed your sketch.
-    <ol marker="(a)">
-      <li>
-        <p>
-          <m>x^2 + y^2 = 9, z \ge 0</m>
-        </p>
-      </li>
-      <li>
-        <p>
-          <m>x^2 + y^2 = 4z, z \ge 0</m>
-        </p>
-      </li>
-      <li>
-        <p>
-          <alert>(H)</alert>
-          <m>r^2\cos(2\theta) + z^2 + 1 = 0</m>
-        </p>
-        <solution>
-          <p>
-            <image source="ps3q2.png">
-            </image>
-          </p>
-        </solution>
-      </li>
-    </ol>
-    </p>
-  </exercise>
-  <exercise>
-    <title>Question 3</title>
-    <p>
-      Convert each of the following surfaces from spherical to rectangular coordinates 
-      and sketch it using whichever coordinate system you prefer. 
-      Briefly outline the process by which you constructed your sketch.
-    </p>
-    <ol marker="(a)">
-      <li>
-        <p>
-          <alert>(H)</alert>
-          <m>\theta = c, 0 \le \varphi \le \pi/2</m>
-        </p>
-        <solution>
-          <p>
-            <image source="ps3q3.png">
-            </image>
-          </p>
-        </solution>
-      </li>
-      <li>
-        <p>
-          <m>\varphi = c</m>
-        </p>
-      </li>
-      <li>
-        <p>
-          <m>\rho = 4\cos(\varphi)</m>
-        </p>
-      </li>
-    </ol>
   </exercise>
 
 </section>
