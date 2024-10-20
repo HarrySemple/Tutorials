@@ -12,23 +12,47 @@
           <p>
             <alert>(H)</alert> Show that <m>f</m> has only one critical point, and that it is a local maximum.
           </p>
+          
+          <solution>
+            <p>
+              <md>
+                <mrow> f_x(x, y) \amp  = 3e^y - 3x^2, </mrow>
+                <mrow> f_y(x, y)  \amp = 3xe^y - 3e^{3y}.</mrow>
+              </md>
+              Setting derivatives to zero we have
+              <me>
+                3e^y - 3x^2 = 0 \implies x^2 = e^y \implies x^2 > 0,
+              </me>
+              <md>
+                <mrow> 3xe^y - 3e^{3y} = 0 \amp \implies xe^y = e^{3y} = (e^y)^3  </mrow>
+                <mrow>  \amp \implies x^3 = x^6  </mrow>
+                <mrow>\amp \implies x = 1, y = \ln(x^2) = 2\ln(1) = 0. </mrow>   
+              </md>
+              Hence there is a single critical point, at  <m>(1,0)</m>. 
+              To determine the nature of this critical point we will use the second partials test, so we need the second order partial derivatives:
+              <md>
+                <mrow>f_{xx}(x, y) \amp = -6x,  </mrow>
+                <mrow>  f_{yy}(x, y) \amp = 3xe^y - 9e^{3y},  </mrow>
+                <mrow>f_{xy}(x, y) \amp = 3e^y. </mrow>
+              </md>
+            </p>
+            Hence the determinant is
+            <me>D = - 6x(3xe^y - 9e^{3y}) - 9e^{2y}.</me>
+            At the point <m>(1,0)</m>, this is
+            <me> (-6)\times(3 - 9) - 9 = 27 > 0,</me>
+            so  <m>(1,0)</m> is a local extremum. 
+            Now, <m> f_{xx}(1,0)= - 6<0 </m>, so it is a local maximum.
+          </solution>
         </li>
         <li>
           <p>
             <alert>(H)</alert>
             Show that this local maximum is not a global maximum for <m>f</m>.
           </p>
-          <solution>
-            <p>
-              <image source="Snowboarding_Torino_2006.jpg">
-                <shortdescription>(2006 Winter Olympics halfpipe)</shortdescription>
-              </image>
-            </p>
-          </solution>
         </li>
         <li>
           <p>
-            Use Geogebra3D to plot the surface defined by <m>f(x,y)</m> and check your answers in (b).
+            Use  <url href="https://mat.geogebra.org/3d?lang=en-GB">Geogebra 3D</url> or <url href="https://www.desmos.com/3d">Desmos 3D</url> to plot the surface defined by <m>f(x,y)</m> and check your answers in (b).
           </p>
         </li>
       </ol>
