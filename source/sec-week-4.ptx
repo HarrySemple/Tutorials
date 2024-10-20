@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-week-3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Week 3</title>
+<section xml:id="sec-week-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Week 4</title>
 
   <exercise>
-    <title>Question 1</title>
+    <title>Question 4</title>
     <p>
-      Sketch the surface defined in rectangular coordinates by each of these functions. 
-      Briefly outline the process by which you constructed your sketch.
+      Consider the function <m>f(x, y) = 3xe^y - x^3 - e^{3y}</m>
       <ol marker="(a)">
         <li>
           <p>
-            <m>z = f(x,y) = 1/y, x \ge 0, y > 0</m>
+            <alert>(H)</alert> Show that <m>f</m> has only one critical point, and that it is a local maximum.
           </p>
         </li>
         <li>
           <p>
             <alert>(H)</alert>
-            <m>z = f(x,y) = y^2 + x, x \ge 0</m>
+            Show that this local maximum is not a global maximum for <m>f</m>.
           </p>
           <solution>
             <p>
@@ -29,7 +28,7 @@
         </li>
         <li>
           <p>
-            <m>z = f(x,y) = \sqrt{25 - x^2}, y \ge 0</m>
+            Use Geogebra3D to plot the surface defined by <m>f(x,y)</m> and check your answers in (b).
           </p>
         </li>
       </ol>
@@ -60,7 +59,7 @@
         </p>
         <solution>
           <p>
-            <image source="hardThink3.jpg" width="50%"> <!--"ps3q2.png">-->
+            <image source="ps3q2.png">
             </image>
           </p>
         </solution>
@@ -83,7 +82,7 @@
         </p>
         <solution>
           <p>
-            <image source="hardThink3.jpg" width="50%"> <!--"ps3q3.png">-->
+            <image source="ps3q3.png">
             </image>
           </p>
         </solution>
