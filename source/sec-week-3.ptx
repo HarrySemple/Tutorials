@@ -60,7 +60,7 @@
         </p>
         <solution>
           <p>
-            <image source="hardThink3.jpg" width="50%"> <!--"ps3q2.png">-->
+            <image source="ps3q2.png" width="100%"> <!--"hardThink3.jpg""ps3q2.png">-->
             </image>
           </p>
         </solution>
@@ -83,7 +83,7 @@
         </p>
         <solution>
           <p>
-            <image source="hardThink3.jpg" width="50%"> <!--"ps3q3.png">-->
+            <image source="ps3q3.png"> <!--"ps3q3.png">-->
             </image>
           </p>
         </solution>
