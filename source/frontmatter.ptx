@@ -12,6 +12,13 @@
       <email>has65@bath.ac.uk</email>
     </author>
     <date>Autumn 2024</date>
+    
+    <p>
+      <figure xml:id="map-bath">
+        <caption>Bath</caption>
+        <interactive xml:id="interactive-map-bath" iframe="https://www.google.com/maps/place/Bath/@51.3801192,-2.4057293,13z/data=!3m1!4b1!4m6!3m5!1s0x487178a6743ee12d:0x138b27d0d66d9a09!8m2!3d51.3781018!4d-2.3596827!16zL20vMGJkZzU?" width="95%" aspect="15:10" />
+      </figure>
+    </p>
   </titlepage>
 
 </frontmatter>

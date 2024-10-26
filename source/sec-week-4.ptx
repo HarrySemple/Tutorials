@@ -3,6 +3,11 @@
 <section xml:id="sec-week-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 4</title>
 
+  <p> Problems from week 4, due <alert>1pm Tuesday 29th October</alert>. </p>
+  <figure xml:id="figure-calcplot3d">
+    <caption>Plot of <m>f(x, y) = 3xe^y - x^3 - e^{3y}</m> on <m>[-2,2]\times[-2,2]</m>.</caption>
+    <interactive xml:id="calcplot3d-full-application" calcplot3d="type=z;z=3xe^y-x^3-e^(3y);visible=true;umin=-2;umax=2;vmin=-2;vmax=2;grid=30;format=normal;alpha=-1;constcol=rgb(255,0,0);contourcolor=red&amp;type=window;hsrmode=3;anaglyph=-1;center=5.529712854135209,7.349875454071844,3.9244880634856956,1;focus=0,0,0,1;up=-0.26875302682986874,-0.2884991397174344,0.9189886054528014,1;transparent=true;alpha=140;edgeson=true;faceson=true;showbox=true;showaxes=true;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=false;gridcolor=rgb(128,128,128);xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-4;zmax=4;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;zoom=0.468667;xscalefactor=1;yscalefactor=1;zscalefactor=1" variant="application" width="95%" aspect="3:2" />
+  </figure>
   <exercise>
     <title>Question 4</title>
     <p>
@@ -101,21 +106,69 @@
           Show that the second partials test to determine whether the crtical point is a local maximum, local minimum, or saddle point is inconclusive. 
           Explain briefly why you think the test is inconclusive for this particular critical point.
         </p>
+        <solution>
+          <image source="hardThink3.jpg" width="50%"> 
+          </image>
+          <!--
+          <p>
+            We have <m>f_x(x, y) = 4x^3</m>, <m>f_y(x, y) = 4y^3</m>.  
+            These are only equal to <m>0</m> at the point  <m>(0,0)</m>, so this is the only critical point of <m>f</m>.
+            To (attempt to) use the second partials test, we calculate the second order partial derivatives:
+            <md>
+              <mrow> f_{xx}(x, y) = 12x^2, </mrow>
+              <mrow> f_{yy}(x, y) = 12y^2, </mrow>
+              <mrow> f_{xy}(x, y) = 0. </mrow>
+            </md>
+            Hence the determinant is <m>D = 144x^2y^2</m>. At <m>(0,0)</m>, this is <m>D=0</m>,
+            so the second partials test is inconclusive. 
+            It fails because the orders of the terms in the original function are so high - each term has order 4,
+            so must be differentiated four times to give anything non-zero at <m>(0,0)</m>.
+          </p>
+        -->
+        </solution>
       </li>
       <li>
         <p>
           <alert>(H)</alert> Show that the critical point you found in part (a) is a global minimum.
         </p>
+        <solution>
+          <image source="hardThink3.jpg" width="50%"> 
+          </image>
+          <!--
+          <p>
+            Fist, observe that <m>f(0,0) = 0</m>. For all <m>x</m> and <m>y</m>, we have <m>x^4 \geq 0</m> and <m>y^4 \geq 0</m>,
+            with equality only at <m>0</m>. Thus, for <m>x\neq 0</m> or <m>y\neq 0</m> we have <m>f(x,y)>0=f(0,0)</m>, so <m>(0,0)</m> is a global minimum. 
+          </p>
+        -->
+        </solution>
       </li>
       <li>
         <p>
           <alert>(H)</alert> Find or construct an example of a function with a local maximum that the second partials test cannot detect.
         </p>
+        <solution>
+          <image source="hardThink3.jpg" width="50%"> 
+          </image>
+          <!--
+          <p>
+            There are many examples. One simple one is <m>g(x, y) = -x^4 - y^4</m>. 
+            Then <m>g</m> has a local maximum (in fact, an global maximum) at <m>(0,0)</m> that the second partials test cannot detect.
+          </p>
+        -->
+        </solution>
       </li>
       <li>
         <p>
           <alert>(H)</alert> Find or construct an example of a function with a saddle point that the second partials test cannot detect.
         </p>
+        <solution>
+          <image source="hardThink3.jpg" width="50%"> 
+          </image>
+          <!--
+          Again, there are many examples, but adapting <m>f</m>, we let <m>h(x, y) = x^4 - y^4</m>. 
+          Then <m>h</m> has a saddle point at <m>(0,0)</m> that the second partials test cannot detect.
+        -->
+        </solution>
       </li>
     </ol>
   </exercise>
@@ -136,11 +189,46 @@
         <p>
           <m>f(x, y) = e^{kx}\cos(ky)</m>
         </p>
+        <solution>
+          <image source="hardThink3.jpg" width="50%"> 
+          </image>
+          <!--
+          <p>
+            <m>f(x, y) = e^{kx}\cos(ky)</m>, so
+            <md>
+              <mrow> f_x(x, y) = ke^{kx}\cos(ky), </mrow>
+              <mrow> f_y(x, y) = -ke^{kx}\sin(ky), </mrow>
+              <mrow> f_{xx}(x, y) = k^2e^{kx}\cos(ky), </mrow>
+              <mrow> f_{yy}(x, y) = -k^2e^{kx}\cos(ky). </mrow>
+            </md>
+            Hence
+            <me>
+              \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} = k^2e^{kx}\cos(ky) - k^2e^{kx}\cos(ky) = 0,
+            </me>
+            so <m>f</m> is harmonic.
+          </p>
+        -->
+        </solution>
       </li>
       <li>
         <p>
           <m>f(x, y) = \ln(x^2 + y^2) + 2\arctan(y/x)</m>
         </p>
+        <solution>
+          <image source="hardThink3.jpg" width="50%"> 
+          </image>
+          <!-- unfinished
+          <p>
+            To find the partial derivatives of <m>f(x, y) = \ln(x^2 + y^2) + 2\arctan(y/x)</m>, we need to be able to 
+            differentiate <m>\arctan(y/x)</m>. 
+          </p>
+          <p>
+            Let <m>v=</m> arctan<m>(u)</m>, so that tan<m>(v)=</m> tan(m)(arctan<m>(u)</m>) = <m>u</m>.
+            (Note that the right-hand equality holds for all <m>u</m>, since arctan is a right inverse of tan.) 
+            Differentiating with respect to <m>v</m> gives.... 
+          </p>
+        -->
+        </solution>
       </li>
     </ol>
   </exercise>

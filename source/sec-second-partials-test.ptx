@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-second-partials-test" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Second Partials Test</title>
+  <subtitle>Motivation for the validity of the second partial derivative test</subtitle>
+  <claim xml:id="thm-2d-derivative-test">
+    <title>Second Partial Derivatives Test (Theorem 2.8)</title>
+    
+    
+    <statement>
+      <p>
+        Let <m>f</m> be a function of two variables with continuous second-order partial derivatives in some disc centred at a critical point <m>(x_0,y_0)</m>, 
+        and let
+        <me>D = f_{xx}(x_0, y_0)f_{yy}(x_0, y_0) - f_{xy}(x_0, y_0)^2.</me>
+        <ol>
+          <li>
+            <p>
+              If <m>D>0</m> and <m>f_{xx}(x_0,y_0)>0</m> then <m>(x_0,y_0)</m> is a local minimum.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>D>0</m> and <m>f_{xx}(x_0,y_0)\lt 0</m> then <m>(x_0,y_0)</m> is a local maximum.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>D\lt 0</m> then <m>(x_0,y_0)</m> is a saddle point.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </claim>
+  
+  <p>
+    A full proof of the second partial derivative test will be covered in 
+    <url href="https://moodle.bath.ac.uk/pluginfile.php/2557296/mod_resource/content/4/sufficient-conditions.html">Analysis 2B</url>,
+    using the <term>2D Taylor expansion</term> of <m>f(x,y)</m> around <m>(x_0,y_0)</m>.
+  </p>
+  <p>
+    There is still some ground to cover in multivariable calculus before we derive the multivariable Taylor expansion. 
+    Instead, we provide <em>Motivation</em> for the validity of the second partial derivative test with an analogous proof of the 1D test for local minima and maxima.
+  </p>
+  <theorem xml:id="thm-1d-derivative-test">
+    <title>Second Derivatives Test in 1D</title>
+    
+    
+    <statement>
+      <p>
+        Let <m>f:\R\rightarrow \R</m> be a function with continuous second-order derivatives in some interval centred at a critical point <m>x_0</m>.
+        <ol>
+          <li>
+            <p>
+              If <m>f''(x_0)>0</m> then <m>x_0</m> is a local minimum.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>f''(x_0)\lt 0</m> then <m>x_0</m> is a local maximum.
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>f''(x_0)=0</m> then the test is inconclusive.            
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </theorem>
+  <proof>
+    <p>
+      Let <m>r>0</m> small enough such that <m>f(x)</m> is twice differentiable in <m>[x_0-r,x_0+r]</m>.
+    </p>
+    <p>
+      Let <m>x_1\in [x_0-r,x_0+r]</m>. 
+    </p>
+    <p>
+      The Taylor expansion of <m>f(x)</m> around <m>x_0</m> gives us
+      <me>f(x_1) = f(x_0) + (x_1-x_0)\frac{df}{dx}(x_0) + \frac{(x_1-x_0)^2}{2}\frac{d^2f}{dx^2}(x_0) + M|x_1-x_0|^3</me>
+      Where <m>M\in\R</m> is some constant (see the mean value theorem).
+    </p>
+    <p>
+      As <m>x_0</m> is a critical point of <m>f</m>, we have <m>\frac{df}{dx}(x_0) = 0</m>. Thus
+      <me>f(x_1) = f(x_0) + \frac{(x_1-x_0)^2}{2}\frac{d^2f}{dx^2}(x_0)+ M|x_1-x_0|^3.</me>
+    </p>
+    <p>
+      Suppose <m>\frac{d^2f}{dx^2}(x_0)>0</m>. Then there exists <m>\epsilon>0</m> such that 
+      <m>\frac{d^2f}{dx^2}(x_0)\ge \epsilon</m>.
+    </p>
+    <p> Now set <m>r\lt \frac{\epsilon}{4|M|}</m>.
+      Then, as <m>|x_1-x_0|\lt r</m>, we have
+      <md>
+        <mrow>f(x_1) >\amp f(x_0) + \frac{1}{2}|x_1-x_0|^2\epsilon+ M|x_1-x_0|^3</mrow>
+        <mrow> >\amp f(x_0) + \frac{1}{2}|x_1-x_0|^2\epsilon+ M|x_1-x_0|^2\frac{\epsilon}{4|M|}</mrow>
+        <mrow> >\amp f(x_0) + |x_1-x_0|^2(\frac{\epsilon}{2} + \frac{\epsilon M}{4|M|})</mrow>
+        <mrow> \ge\amp f(x_0)</mrow>
+        </md>
+    </p>
+    <p>
+      That is, for all <m>x_1</m> such that <m>|x_1-x_0|\lt r</m>, we have <m>f(x_1)>f(x_0)</m>. So <m>x_0</m> is a local minimum. 
+      The remainder of the proof follows similarly for the case <m>\frac{d^2f}{dx^2}(x_0)\lt 0</m>.
+    </p>
+  </proof>
+  
+  
+  
+  
+  
+
+</section>
