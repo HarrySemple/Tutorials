@@ -178,7 +178,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "The Second Partials Test",
-  "body": " The Second Partials Test  Motivation for the validity of the second partial derivative test   Second Partial Derivatives Test (Theorem 2.8)   Let be a function of two variables with continuous second-order partial derivatives in some disc centred at a critical point , and let    If and then is a local minimum.    If and then is a local maximum.    If then is a saddle point.       A full proof of the second partial derivative test will be covered in Analysis 2B , using the 2D Taylor expansion of around .  There is still some ground to cover in multivariable calculus before we derive the multivariable Taylor expansion. Instead, we provide Motivation for the validity of the second partial derivative test with an analogous proof of the 1D test for local minima and maxima.   Second Derivatives Test in 1D   Let be a function with continuous second-order derivatives in some interval centred at a critical point .   If then is a local minimum.    If then is a local maximum.    If then the test is inconclusive.        Let small enough such that is twice differentiable in .  Let .  The Taylor expansion of around gives us Where is some constant (see the mean value theorem).  As is a critical point of , we have . Thus   Suppose . Then there exists such that .  Now set . Then, as , we have   That is, for all such that , we have . So is a local minimum. The remainder of the proof follows similarly for the case .   "
+  "body": " The Second Partials Test  Motivation for the validity of the second partial derivative test   Second Partial Derivatives Test (Theorem 2.8)   Let be a function of two variables with continuous second-order partial derivatives in some disc centred at a critical point , and let    If and then is a local minimum.    If and then is a local maximum.    If then is a saddle point.       A full proof of the second partial derivative test will be covered in Analysis 2B , using the 2D Taylor expansion of around .  There is still a fair bit of analysis content to cover before we derive the multivariable Taylor expansion. However, we can find Motivation for the validity of the second partial derivatives test in the proof of the 1D test for local minima\/maxima, which is analogous to the one used later in analysis.   Second Derivatives Test in 1D   Let be a function with continuous second-order derivatives in some interval centred at a critical point .   If then is a local minimum.    If then is a local maximum.    If then the test is inconclusive.        Let small enough such that is twice differentiable in .  Let .  The Taylor expansion of around gives us Where is some constant (see the mean value theorem).  As is a critical point of , we have . Thus   Suppose . Then there exists such that .  Now set . Then, as , we have   That is, for all such that , we have . So is a local minimum. The remainder of the proof follows similarly for the case .   The proof of the 2D case is analogous - we still use a Taylor expansion and use appropriate bounds to show local minimality\/maximality.   In place of the interval , we use an open ball ,     In place of conditions on the second derivative , we consider whether the Hessian Matrix is positive definite or negative definite . In 2D, this is simplified to the conditions provided in Theorem 2.8. .     "
 },
 {
   "id": "thm-2d-derivative-test",
@@ -215,6 +215,15 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": " Let small enough such that is twice differentiable in .  Let .  The Taylor expansion of around gives us Where is some constant (see the mean value theorem).  As is a critical point of , we have . Thus   Suppose . Then there exists such that .  Now set . Then, as , we have   That is, for all such that , we have . So is a local minimum. The remainder of the proof follows similarly for the case .  "
+},
+{
+  "id": "sec-second-partials-test-8",
+  "level": "2",
+  "url": "sec-second-partials-test.html#sec-second-partials-test-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "open ball Hessian Matrix "
 },
 {
   "id": "sec-normal-dist-derivation",

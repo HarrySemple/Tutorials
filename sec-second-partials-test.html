@@ -125,6 +125,9 @@ window.MathJax = {
 #thm-1d-derivative-test-2-1-3 { counter-set: thm-1d-derivative-test-2-1-3 0; }
 #thm-1d-derivative-test-2-1-3 > li::marker { content: ""counter(thm-1d-derivative-test-2-1-3,decimal)"."; }
 #thm-1d-derivative-test-2-1-3 > li { counter-increment: thm-1d-derivative-test-2-1-3; }
+#sec-second-partials-test-8-1 { counter-set: sec-second-partials-test-8-1 0; }
+#sec-second-partials-test-8-1 > li::marker { content: ""counter(sec-second-partials-test-8-1,decimal)"."; }
+#sec-second-partials-test-8-1 > li { counter-increment: sec-second-partials-test-8-1; }
 #sec-normal-dist-derivation-2-2-2 { counter-set: sec-normal-dist-derivation-2-2-2 0; }
 #sec-normal-dist-derivation-2-2-2 > li::marker { content: ""counter(sec-normal-dist-derivation-2-2-2,decimal)"."; }
 #sec-normal-dist-derivation-2-2-2 > li { counter-increment: sec-normal-dist-derivation-2-2-2; }
@@ -207,7 +210,7 @@ D = f_{xx}(x_0, y_0)f_{yy}(x_0, y_0) - f_{xy}(x_0, y_0)^2.
 </ol>
 </div></article><div class="para" id="sec-second-partials-test-4">A full proof of the second partial derivative test will be covered in <a class="external" href="https://moodle.bath.ac.uk/pluginfile.php/2557296/mod_resource/content/4/sufficient-conditions.html" target="_blank">Analysis 2B</a><details class="ptx-footnote" aria-live="polite" id="sec-second-partials-test-4-2"><summary class="ptx-footnote__number" title="Footnote 3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="sec-second-partials-test-4-2"><code class="code-inline tex2jax_ignore">moodle.bath.ac.uk/pluginfile.php/2557296/mod_resource/content/4/sufficient-conditions.html</code></div></details>, using the <dfn class="terminology">2D Taylor expansion</dfn> of <span class="process-math">\(f(x,y)\)</span> around <span class="process-math">\((x_0,y_0)\text{.}\)</span>
 </div>
-<div class="para" id="sec-second-partials-test-5">There is still some ground to cover in multivariable calculus before we derive the multivariable Taylor expansion. Instead, we provide <em class="emphasis">Motivation</em> for the validity of the second partial derivative test with an analogous proof of the 1D test for local minima and maxima.</div>
+<div class="para" id="sec-second-partials-test-5">There is still a fair bit of analysis content to cover before we derive the multivariable Taylor expansion. However, we can find <em class="emphasis">Motivation</em> for the validity of the second partial derivatives test in the proof of the 1D test for local minima/maxima, which is analogous to the one used later in analysis.</div>
 <article class="theorem theorem-like" id="thm-1d-derivative-test"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">15</span><span class="period">.</span><span class="space"> </span><span class="title">Second Derivatives Test in 1D.</span>
 </h3>
@@ -254,7 +257,14 @@ f(x_1) &gt;\amp f(x_0) + \frac{1}{2}|x_1-x_0|^2\epsilon+ M|x_1-x_0|^3\\
 </div>
 </div>
 <div class="para" id="sec-second-partials-test-7-7">That is, for all <span class="process-math">\(x_1\)</span> such that <span class="process-math">\(|x_1-x_0|\lt r\text{,}\)</span> we have <span class="process-math">\(f(x_1)&gt;f(x_0)\text{.}\)</span> So <span class="process-math">\(x_0\)</span> is a local minimum. The remainder of the proof follows similarly for the case <span class="process-math">\(\frac{d^2f}{dx^2}(x_0)\lt 0\text{.}\)</span>
-</div></article></details></section></div>
+</div></article></details><div class="para logical" id="sec-second-partials-test-8">
+<div class="para">The proof of the 2D case is analogous - we still use a Taylor expansion and use appropriate bounds to show local minimality/maximality.</div>
+<ol class="decimal" id="sec-second-partials-test-8-1">
+<li id="sec-second-partials-test-8-1-1"><div class="para" id="sec-second-partials-test-8-1-1-1">In place of the interval <span class="process-math">\([x_0-r,x_0+r]\text{,}\)</span> we use an <dfn class="terminology">open ball</dfn>, <span class="process-math">\(B_r(x_0,y_0)=\{(x,y): |x-x_0|^2 + |y-y_0|^2 \lt r\}\)</span>
+</div></li>
+<li id="sec-second-partials-test-8-1-2"><div class="para" id="sec-second-partials-test-8-1-2-1">In place of conditions on the second derivative <span class="process-math">\(f''(x_0)\text{,}\)</span> we consider whether the <dfn class="terminology">Hessian Matrix</dfn> is <em class="emphasis">positive definite</em> or <em class="emphasis">negative definite</em>. In 2D, this is simplified to the conditions provided in <a href="sec-second-partials-test.html#thm-2d-derivative-test" class="xref" data-knowl="./knowl/xref/thm-2d-derivative-test.html" data-reveal-label="Reveal" data-close-label="Close" title="Claim 14: Second Partial Derivatives Test (Theorem 2.8)">Theorem 2.8. 14</a>.</div></li>
+</ol>
+</div></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-arc-length-derivation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-normal-dist-derivation.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
