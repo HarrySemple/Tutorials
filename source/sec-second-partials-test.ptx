@@ -39,8 +39,9 @@
     using the <term>2D Taylor expansion</term> of <m>f(x,y)</m> around <m>(x_0,y_0)</m>.
   </p>
   <p>
-    There is still some ground to cover in multivariable calculus before we derive the multivariable Taylor expansion. 
-    Instead, we provide <em>Motivation</em> for the validity of the second partial derivative test with an analogous proof of the 1D test for local minima and maxima.
+    There is still a fair bit of analysis content to cover before we derive the multivariable Taylor expansion. 
+    However, we can find <em>Motivation</em> for the validity of the second partial derivatives test
+    in the proof of the 1D test for local minima/maxima, which is analogous to the one used later in analysis.
   </p>
   <theorem xml:id="thm-1d-derivative-test">
     <title>Second Derivatives Test in 1D</title>
@@ -103,7 +104,23 @@
       The remainder of the proof follows similarly for the case <m>\frac{d^2f}{dx^2}(x_0)\lt 0</m>.
     </p>
   </proof>
-  
+  <p>
+    The proof of the 2D case is analogous - we still use a Taylor expansion and use appropriate bounds to show local minimality/maximality. 
+    <ol>
+      <li>
+        <p>
+          In place of the interval <m>[x_0-r,x_0+r]</m>, we use an <term>open ball</term>, <m>B_r(x_0,y_0)=\{(x,y): |x-x_0|^2 + |y-y_0|^2 \lt r\}</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          In place of conditions on the second derivative <m>f''(x_0)</m>, 
+          we consider whether the <term>Hessian Matrix</term> is <em>positive definite</em> or <em>negative definite</em>.
+          In 2D, this is simplified to the conditions provided in <xref ref="thm-2d-derivative-test">Theorem 2.8. </xref>.
+        </p>
+      </li>
+    </ol>
+  </p>
   
   
   
