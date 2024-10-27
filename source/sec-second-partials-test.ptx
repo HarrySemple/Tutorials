@@ -40,7 +40,7 @@
   </p>
   <p>
     There is still a fair bit of analysis content to cover before we derive the multivariable Taylor expansion. 
-    However, we can find <em>Motivation</em> for the validity of the second partial derivatives test
+    However, we can find <em>motivation</em> for the validity of the second partial derivatives test
     in the proof of the 1D test for local minima/maxima, which is analogous to the one used later in analysis.
   </p>
   <theorem xml:id="thm-1d-derivative-test">
