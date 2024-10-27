@@ -13,7 +13,7 @@
     <p>
       Our new aim is to write the <term>variance</term> in terms of the PDF, defined as
       <me>\sigma^2 = \int_{-\infty}^\infty (x-\mu)^2 f(x) dx</me>
-      where <m>\mu</m> is the mean, which is <m>x=0</m> in our darts paradigm. Thus
+      where <m>\mu</m> is the <term>mean</term>, which is <m>x=0</m> in our darts model. Thus
       <md>
         <mrow>\sigma^2 =\amp \psi \int_{-\infty}^\infty x^2 e^{-\pi\psi^2 x^2} dx</mrow>
         <mrow> =\amp \psi\bigg[-\frac{x}{2\pi\psi^2}e^{-\pi\psi^2 x^2} \bigg]_{-\infty}^\infty 
