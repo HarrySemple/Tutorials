@@ -62,7 +62,7 @@
     where <m>\psi = f(0) > 0</m> is some constant. Thus,
   </p>
   <md>
-    <mrow>\phi(\sqrt{x^2+y^2}) =\amp \psi f(x)
+    <mrow>\phi(\sqrt{x^2+y^2}) =\amp \psi f(\sqrt{x^2+y^2})
       =f(x)f(y)
     </mrow>
   </md>
