@@ -153,7 +153,7 @@
     <title>Question 4</title>
     <p>
       <alert>(H)</alert> The curve <m>y=x^3</m> with <m>0\leq x\leq a</m> is rotated around the <m>x</m> axis. 
-      Show that the area <m>A</m>of the resulting surface is given by
+      Show that the area <m>A</m> of the resulting surface is given by
       <me>A = 2 \pi \int_0^a x^3 \sqrt{1 + 9x^4} \mathop{}\!\mathrm{d}x.</me>
       By making an appropriate substitution, show that
       <me>A = \frac{\pi}{27} \left[ \left(1 + 9 a^4\right)^{3/2} -1 \right].</me>
