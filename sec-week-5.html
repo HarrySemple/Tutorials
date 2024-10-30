@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Week 5</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Multivariable Calculus">
+<meta property="book:author" content="Harry Semple">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-week-1-4-2-3 { counter-set: sec-week-1-4-2-3 0; }
+#sec-week-1-4-2-3 > li::marker { content: "("counter(sec-week-1-4-2-3,lower-alpha)")"; }
+#sec-week-1-4-2-3 > li { counter-increment: sec-week-1-4-2-3; }
+#sec-week-1-5-3 { counter-set: sec-week-1-5-3 0; }
+#sec-week-1-5-3 > li::marker { content: "("counter(sec-week-1-5-3,lower-alpha)")"; }
+#sec-week-1-5-3 > li { counter-increment: sec-week-1-5-3; }
+#sec-week-2-4-3 { counter-set: sec-week-2-4-3 0; }
+#sec-week-2-4-3 > li::marker { content: "("counter(sec-week-2-4-3,lower-alpha)")"; }
+#sec-week-2-4-3 > li { counter-increment: sec-week-2-4-3; }
+#sec-week-2-5-3 { counter-set: sec-week-2-5-3 0; }
+#sec-week-2-5-3 > li::marker { content: ""counter(sec-week-2-5-3,decimal)"."; }
+#sec-week-2-5-3 > li { counter-increment: sec-week-2-5-3; }
+#sec-week-3-3-2-1 { counter-set: sec-week-3-3-2-1 0; }
+#sec-week-3-3-2-1 > li::marker { content: "("counter(sec-week-3-3-2-1,lower-alpha)")"; }
+#sec-week-3-3-2-1 > li { counter-increment: sec-week-3-3-2-1; }
+#sec-week-3-4-2-1 { counter-set: sec-week-3-4-2-1 0; }
+#sec-week-3-4-2-1 > li::marker { content: "("counter(sec-week-3-4-2-1,lower-alpha)")"; }
+#sec-week-3-4-2-1 > li { counter-increment: sec-week-3-4-2-1; }
+#sec-week-3-5-3 { counter-set: sec-week-3-5-3 0; }
+#sec-week-3-5-3 > li::marker { content: "("counter(sec-week-3-5-3,lower-alpha)")"; }
+#sec-week-3-5-3 > li { counter-increment: sec-week-3-5-3; }
+#sec-week-4-4-2-2 { counter-set: sec-week-4-4-2-2 0; }
+#sec-week-4-4-2-2 > li::marker { content: "("counter(sec-week-4-4-2-2,lower-alpha)")"; }
+#sec-week-4-4-2-2 > li { counter-increment: sec-week-4-4-2-2; }
+#sec-week-4-5-3 { counter-set: sec-week-4-5-3 0; }
+#sec-week-4-5-3 > li::marker { content: "("counter(sec-week-4-5-3,lower-alpha)")"; }
+#sec-week-4-5-3 > li { counter-increment: sec-week-4-5-3; }
+#sec-week-4-6-4 { counter-set: sec-week-4-6-4 0; }
+#sec-week-4-6-4 > li::marker { content: "("counter(sec-week-4-6-4,lower-alpha)")"; }
+#sec-week-4-6-4 > li { counter-increment: sec-week-4-6-4; }
+#sec-week-5-3-3 { counter-set: sec-week-5-3-3 0; }
+#sec-week-5-3-3 > li::marker { content: "("counter(sec-week-5-3-3,lower-alpha)")"; }
+#sec-week-5-3-3 > li { counter-increment: sec-week-5-3-3; }
+#sec-week-5-4-3 { counter-set: sec-week-5-4-3 0; }
+#sec-week-5-4-3 > li::marker { content: "("counter(sec-week-5-4-3,lower-alpha)")"; }
+#sec-week-5-4-3 > li { counter-increment: sec-week-5-4-3; }
+#sec-week-5-6-2-4 { counter-set: sec-week-5-6-2-4 0; }
+#sec-week-5-6-2-4 > li::marker { content: "("counter(sec-week-5-6-2-4,lower-alpha)")"; }
+#sec-week-5-6-2-4 > li { counter-increment: sec-week-5-6-2-4; }
+#thm-2d-derivative-test-2-1-4 { counter-set: thm-2d-derivative-test-2-1-4 0; }
+#thm-2d-derivative-test-2-1-4 > li::marker { content: ""counter(thm-2d-derivative-test-2-1-4,decimal)"."; }
+#thm-2d-derivative-test-2-1-4 > li { counter-increment: thm-2d-derivative-test-2-1-4; }
+#thm-1d-derivative-test-2-1-3 { counter-set: thm-1d-derivative-test-2-1-3 0; }
+#thm-1d-derivative-test-2-1-3 > li::marker { content: ""counter(thm-1d-derivative-test-2-1-3,decimal)"."; }
+#thm-1d-derivative-test-2-1-3 > li { counter-increment: thm-1d-derivative-test-2-1-3; }
+#sec-second-partials-test-8-1 { counter-set: sec-second-partials-test-8-1 0; }
+#sec-second-partials-test-8-1 > li::marker { content: ""counter(sec-second-partials-test-8-1,decimal)"."; }
+#sec-second-partials-test-8-1 > li { counter-increment: sec-second-partials-test-8-1; }
+#sec-normal-dist-derivation-2-2-2 { counter-set: sec-normal-dist-derivation-2-2-2 0; }
+#sec-normal-dist-derivation-2-2-2 > li::marker { content: ""counter(sec-normal-dist-derivation-2-2-2,decimal)"."; }
+#sec-normal-dist-derivation-2-2-2 > li { counter-increment: sec-normal-dist-derivation-2-2-2; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Multivariable Calculus:</span> <span class="subtitle">Homework and Feedback</span></a></h1>
+<p class="byline">Harry Semple</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-week-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-homework.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-examples.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\gt}{&gt;}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-homework.html" class="internal"><span class="title">Homework</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-1.html" class="internal"><span class="title">Week 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-2.html" class="internal"><span class="title">Week 2</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-3.html" class="internal"><span class="title">Week 3</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-week-4.html" class="internal"><span class="title">Week 4</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-week-5.html" class="internal"><span class="title">Week 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-examples.html" class="internal"><span class="title">Derivations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-arc-length-derivation.html" class="internal"><span class="title">Arc Length</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-second-partials-test.html" class="internal"><span class="title">The Second Partials Test</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation.html" class="internal"><span class="title">The Normal Distribution I</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-normal-dist-derivation.html#exercises-norm" class="internal"><span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html" class="internal"><span class="title">The Normal Distribution II</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-normal-dist-derivation-2.html#subsec-gauss" class="internal"><span class="title">The Gaussian Integral</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-normal-dist-derivation-3.html" class="internal"><span class="title">The Normal Distribution III</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-normal-dist-derivation-3.html#subsec-spec-var" class="internal"><span class="title">Specifying Variables</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-week-5"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Week 5</span>
+</h2>
+<div class="para" id="sec-week-5-2">Problems from week 5, due <em class="alert">1pm Tuesday 5th November</em>.</div>
+<details id="sec-week-5-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">16</span><span class="period">.</span><span class="space"> </span><span class="title">Question 2.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-week-5-3-2">Evaluate the following double integrals.</div>
+<ol class="lower-alpha" id="sec-week-5-3-3">
+<li id="sec-week-5-3-3-1">
+<div class="para logical" id="sec-week-5-3-3-1-1"><div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{\sqrt{\pi}}^{\sqrt{2\pi}} \int_{0}^{x^3} \cos\left(\frac{y}{x}\right) \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x
+\end{equation*}
+</div></div>
+<details id="sec-week-5-3-3-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec-week-5-3-3-1-2-1"><div class="displaymath process-math">
+\begin{equation*}
+-1
+\end{equation*}
+</div></div></div></details>
+</li>
+<li id="sec-week-5-3-3-2">
+<div class="para logical" id="sec-week-5-3-3-2-1"><div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{0}^{2} \int_{0}^{y^3} e^{x/y^3} \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y
+\end{equation*}
+</div></div>
+<details id="sec-week-5-3-3-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec-week-5-3-3-2-2-1"><div class="displaymath process-math">
+\begin{equation*}
+4(e-1)
+\end{equation*}
+</div></div></div></details>
+</li>
+<li id="sec-week-5-3-3-3">
+<div class="para logical" id="sec-week-5-3-3-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{0}^{1} \int_{x}^{2 - x} x^2 \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x
+\end{equation*}
+</div></div>
+<details id="sec-week-5-3-3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec-week-5-3-3-3-2-1"><div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{6}
+\end{equation*}
+</div></div></div></details>
+</li>
+<li id="sec-week-5-3-3-4">
+<div class="para logical" id="sec-week-5-3-3-4-1">
+<div class="para"><em class="alert">(H)</em></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{2}^{3} \int_{2}^{e^x + 1} \frac{x}{y - 1} \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x
+\end{equation*}
+</div>
+</div>
+<details id="sec-week-5-3-3-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec-week-5-3-3-4-2-1"><div class="displaymath process-math">
+\begin{equation*}
+\frac{19}{3}\text{.}
+\end{equation*}
+</div></div></div></details>
+</li>
+</ol></article></details><details id="sec-week-5-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">17</span><span class="period">.</span><span class="space"> </span><span class="title">Question 3.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-week-5-4-2">For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.</div>
+<ol class="lower-alpha" id="sec-week-5-4-3">
+<li id="sec-week-5-4-3-1"><div class="para logical" id="sec-week-5-4-3-1-1"><div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{0}^{1} \int_{2y}^{2} e^{x^2} \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y
+\end{equation*}
+</div></div></li>
+<li id="sec-week-5-4-3-2"><div class="para logical" id="sec-week-5-4-3-2-1"><div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{0}^{1} \int_{\sqrt[3]{x}}^{1} \pi\cos\left(\frac{\pi y^4}{2}\right) \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x
+\end{equation*}
+</div></div></li>
+<li id="sec-week-5-4-3-3"><div class="para logical" id="sec-week-5-4-3-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{1}^{3} \int_{0}^{\ln(x)} x \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x
+\end{equation*}
+</div></div></li>
+<li id="sec-week-5-4-3-4"><div class="para logical" id="sec-week-5-4-3-4-1"><div class="displaymath process-math">
+\begin{equation*}
+\displaystyle \int_{0}^{6} \int_{y/3}^{2} x\cosh(x^3) \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y
+\end{equation*}
+</div></div></li>
+</ol></article></details><details id="sec-week-5-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">18</span><span class="period">.</span><span class="space"> </span><span class="title">Question 4.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="sec-week-5-5-2">
+<div class="para">
+<em class="alert">(H)</em> Evaluate the double integral</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\iint\limits_R x\max(x, y) \mathop{}\!\mathrm{d}A,
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(\max\)</span> is the function giving the maximum, i.e.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\max(x, y) :=
+\begin{cases}
+x \amp \text{if } x \geq y  \\
+y \amp \text{if } y &gt; x,
+\end{cases}
+\end{equation*}
+</div>
+<div class="para">and <span class="process-math">\(R\)</span> is the region defined by <span class="process-math">\(0\leq x\leq 1\text{,}\)</span> <span class="process-math">\(0\leq y \leq 1\text{.}\)</span>
+</div>
+</div>
+<details id="sec-week-5-5-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="sec-week-5-5-3-1"><span class="process-math">\(\frac{3}{8}\)</span></div></div></details></article></details><details id="sec-week-5-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Ex</span><span class="space"> </span><span class="codenumber">19</span><span class="period">.</span><span class="space"> </span><span class="title">Question 7.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="sec-week-5-6-2">
+<div class="para">The surface area of a function <span class="process-math">\(f(x,y)\)</span> over a region <span class="process-math">\(R\)</span> is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S(R) = \iint\limits_R \sqrt{1 + \left(\frac{\partial f}{\partial y}\right)^2 + \left(\frac{\partial f}{\partial x}\right)^2} \mathop{}\!\mathrm{d}A.
+\end{equation*}
+</div>
+<div class="para">(Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.</div>
+<ol class="lower-alpha" id="sec-week-5-6-2-4">
+<li id="sec-week-5-6-2-4-1"><div class="para" id="sec-week-5-6-2-4-1-1">The portion of the plane <span class="process-math">\(2x + 2y + z = 8\)</span> such that <span class="process-math">\(x, y, z\)</span> are non-negative.</div></li>
+<li id="sec-week-5-6-2-4-2">
+<div class="para" id="sec-week-5-6-2-4-2-1">
+<em class="alert">(H)</em> The portion of the cone <span class="process-math">\(z = 1 - \sqrt{x^2 + y^2}\)</span> for which <span class="process-math">\(z \ge 0\text{.}\)</span> Do not include the base.</div>
+<details id="sec-week-5-6-2-4-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-week-5-6-2-4-2-2-1">For the integral you might consider the substitution <span class="process-math">\(x=sin(\theta)\text{.}\)</span> Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.</div></div></details><details id="sec-week-5-6-2-4-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="sec-week-5-6-2-4-2-3-1"><div class="displaymath process-math">
+\begin{equation*}
+\pi\sqrt{2}
+\end{equation*}
+</div></div></div></details>
+</li>
+</ol>
+</div></article></details></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-week-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-examples.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
