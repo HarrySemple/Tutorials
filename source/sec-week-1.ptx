@@ -3,6 +3,12 @@
 <section xml:id="sec-week-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 1</title>
 
+  <figure xml:id="fig-catenary">
+    <image source="catenary.jpg" width="90%">
+    </image>
+    <caption>The catenary curve, <m>y = \text{cosh}(x)</m>.  
+      <url href="https://mathcurve.com/courbes2d.gb/chainette/chainette.shtml" >Image source and more properties.</url></caption>
+  </figure>
   <p> Problems from week 1, due <alert>4pm Wednesday 9th October</alert>. </p>
   <exercise>
     <title>Question 1</title>    

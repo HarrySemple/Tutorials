@@ -3,6 +3,13 @@
 <section xml:id="sec-week-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 2</title>
 
+  <figure xml:id="fig-cardioid">
+    <image source="cardioid.png" width="50%">
+    </image>
+    <caption>The cardioid, <m>r = \text{cos}(\theta) + 1</m>. 
+      <url href="https://chalkdustmagazine.com/features/cardioids-coffee-cups/">Online article.</url></caption>
+  </figure>
+
   <p> Problems from week 2, due <alert>1pm Tuesday 15th October</alert>. </p>
   <exercise>
     <title>Question 2</title>
