@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-week-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Week 5</title>
+
+  <p> Problems from week 5, due <alert>1pm Tuesday 5th November</alert>. </p>
+  
+  <exercise>
+    <title>Question 2</title>
+    <p>
+      Evaluate the following double integrals.
+    </p>
+    <ol marker="(a)">
+      <li>
+        <p>
+          <me>\displaystyle \int_{\sqrt{\pi}}^{\sqrt{2\pi}} \int_{0}^{x^3} \cos\left(\frac{y}{x}\right) \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+        </p>
+        <solution>
+          <p>
+            <me>-1</me>
+          </p>
+        </solution>
+      </li>
+      <li>
+        <p>
+          <me>\displaystyle \int_{0}^{2} \int_{0}^{y^3} e^{x/y^3} \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y</me>
+        </p>
+        <solution>
+          <p>
+            <me>4(e-1)</me>
+          </p>
+        </solution>
+      </li>
+      <li>
+        <p>
+          <me>\displaystyle \int_{0}^{1} \int_{x}^{2 - x} x^2 \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+        </p>
+        <solution>
+          <p>
+            <me>\frac{1}{6}</me>
+          </p>
+        </solution>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert>
+          <me>\displaystyle \int_{2}^{3} \int_{2}^{e^x + 1} \frac{x}{y - 1} \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+        </p>
+        <solution>
+          <p>
+            <me>\frac{19}{3}</me>.
+          </p>
+        </solution>
+      </li>
+    </ol>
+    
+  </exercise>
+  <exercise>
+    <title>Question 3</title>
+    
+    
+    <p>
+      For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.
+    </p>
+    <ol marker="(a)">
+      <li>
+        <p>
+          <me>\displaystyle \int_{0}^{1} \int_{2y}^{2} e^{x^2} \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y</me>
+        </p>
+      </li>
+      <li>
+        <p>
+          <me>\displaystyle \int_{0}^{1} \int_{\sqrt[3]{x}}^{1} \pi\cos\left(\frac{\pi y^4}{2}\right) \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+        </p>
+      </li>
+      <li>
+        <p>
+          <me>\displaystyle \int_{1}^{3} \int_{0}^{\ln(x)} x \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+        </p>
+      </li>
+      <li>
+        <p>
+          <me>\displaystyle \int_{0}^{6} \int_{y/3}^{2} x\cosh(x^3) \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y</me>
+        </p>
+      </li>
+    </ol>
+  </exercise>
+
+
+  <exercise>
+    <title>Question 4</title>
+    
+    
+    <p>
+      <alert>(H)</alert> Evaluate the double integral
+      <me>\iint\limits_R x\max(x, y) \mathop{}\!\mathrm{d}A,</me>
+      where <m>\max</m> is the function giving the maximum, i.e.
+      <me>\max(x, y) :=
+        \begin{cases}
+          x \amp \text{if } x \geq y  \\
+          y \amp \text{if } y > x,
+        \end{cases}</me>
+      and <m>R</m> is the region defined by <m>0\leq x\leq 1</m>, <m>0\leq y \leq 1</m>.
+    </p>
+    <solution>
+      <p>
+        <m>\frac{3}{8}</m>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise>
+    <title>Question 7</title>
+    
+    
+    <p>
+      The surface area of a function <m>f(x,y)</m> over a region <m>R</m> is given by
+      <me>S(R) = \iint\limits_R \sqrt{1 + \left(\frac{\partial f}{\partial y}\right)^2 + \left(\frac{\partial f}{\partial x}\right)^2} \mathop{}\!\mathrm{d}A.</me>
+      (Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.
+      <ol marker="(a)">
+        <li>
+          <p>
+            The portion of the plane <m>2x + 2y + z = 8</m> such that <m>x, y, z</m> are non-negative.
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>(H)</alert> The portion of the cone <m>z = 1 - \sqrt{x^2 + y^2}</m> for which <m>z \ge 0</m>. Do not include the base.
+          </p>
+          <hint>
+            <p>
+              For the integral you might consider the substitution <m>x=sin(\theta)</m>. Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.
+            </p>
+          </hint>
+          <solution>
+            <p>
+              <me>\pi\sqrt{2}</me>
+            </p>
+          </solution>
+        </li>
+      </ol>
+    </p>
+  </exercise>
+</section>
