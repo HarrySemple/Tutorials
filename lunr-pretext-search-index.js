@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 5",
-  "body": " Week 5  Problems from week 5, due 1pm Tuesday 5th November .  Question 2 Evaluate the following double integrals.                                  (H)      .     Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                       Question 4  (H) Evaluate the double integral where is the function giving the maximum, i.e. and is the region defined by , .      Question 7 The surface area of a function over a region is given by (Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.   The portion of the plane such that are non-negative.     (H) The portion of the cone for which . Do not include the base.   For the integral you might consider the substitution . Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.           "
+  "body": " Week 5  Problems from week 5, due 1pm Tuesday 5th November .  Question 2 Evaluate the following double integrals.                                  (H)      .     Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                   (H)      Question 4  (H) Evaluate the double integral where is the function giving the maximum, i.e. and is the region defined by , .      Question 7 The surface area of a function over a region is given by (Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.   The portion of the plane such that are non-negative.     (H) The portion of the cone for which . Do not include the base.   For the integral you might consider the substitution . Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.           "
 },
 {
   "id": "sec-week-5-3",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Ex",
   "number": "17",
   "title": "Question 3.",
-  "body": "Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                      "
+  "body": "Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                   (H)     "
 },
 {
   "id": "sec-week-5-5",
