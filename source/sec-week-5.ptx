@@ -83,6 +83,11 @@
           <alert>(H)</alert>
           <me>\displaystyle \int_{0}^{6} \int_{y/3}^{2} x\cosh(x^3) \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y</me>
         </p>
+        <solution>
+          <p>
+            <me>\sinh(8)</me>
+          </p>
+        </solution>
       </li>
     </ol>
   </exercise>
@@ -105,7 +110,7 @@
     </p>
     <solution>
       <p>
-        <m>\frac{3}{8}</m>
+        <me>\frac{3}{8}</me>
       </p>
     </solution>
   </exercise>
