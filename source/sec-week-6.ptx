@@ -16,44 +16,43 @@
     <ol marker="(a)">
       <li>
         <p>
-          <me>\displaystyle \int_{\sqrt{\pi}}^{\sqrt{2\pi}} \int_{0}^{x^3} \cos\left(\frac{y}{x}\right) \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+          <m>R</m> is the rectangle with vertices <m>(0,0)</m>, <m>(4,2)</m>, <m>(3,4)</m>, <m>(−1,2)</m>; 
+          <m>S</m>is the rectangle defined by <me>0 ≤ u ≤ 10,\quad 0 ≤ v ≤ 5</me>.
         </p>
-        <solution>
-          <p>
-            <me>-1</me>
-          </p>
-        </solution>
       </li>
       <li>
         <p>
-          <me>\displaystyle \int_{0}^{2} \int_{0}^{y^3} e^{x/y^3} \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y</me>
+          <m>R</m> is the parallelogram with vertices <m>(0,0)</m>, <m>(3,1)</m>, <m>(4,4)</m>, <m>(1,3)</m>; 
+          <m>S</m>is the rectangle defined by <me>0 ≤ u ≤ 1,\quad 0 ≤ v ≤ 1</me>.
         </p>
-        <solution>
-          <p>
-            <me>4(e-1)</me>
-          </p>
-        </solution>
-      </li>
-      <li>
-        <p>
-          <me>\displaystyle \int_{0}^{1} \int_{x}^{2 - x} x^2 \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
-        </p>
-        <solution>
-          <p>
-            <me>\frac{1}{6}</me>
-          </p>
-        </solution>
       </li>
       <li>
         <p>
           <alert>(H)</alert>
-          <me>\displaystyle \int_{2}^{3} \int_{2}^{e^x + 1} \frac{x}{y - 1} \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+          <m>R</m> is the triangle with vertices <m>(0,0)</m>, <m>(3,2)</m>, <m>(1,3)</m>; 
+          <m>S</m>is the triangle with vertices <m>(0,0)</m>, <m>(2,0)</m>, <m>(2,1)</m>.
         </p>
         <solution>
+          <image source="hardThink3.jpg" width="50%">
+          </image>
+          <!--
           <p>
-            <me>\frac{19}{3}</me>.
+            <me>v = \dfrac{y - x}{2}, \quad u = \dfrac{x + y}{2}</me>
           </p>
+        -->
         </solution>
+      </li>
+      <li>
+        <p>
+          <m>R</m> is the region bounded by <m>xy=1</m>, <m>xy=4</m>, <m>x=1</m>, <m>x=4</m>; 
+          <m>S</m>is the rectangle defined by <me>1 ≤ u ≤ 4,\quad 1 ≤ v ≤ 4</me>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>R</m> is the region bounded by the <m>x</m>-axis and the semicircles <m>y=\sqrt{1-x^2}</m>, <m>y=\sqrt{4-x^2}</m>;
+          <m>S</m>is the rectangle defined by <me>1 ≤ u ≤ 2,\quad 0 ≤ v ≤ \pi</me>.
+        </p>
       </li>
     </ol>
     
@@ -65,27 +64,40 @@
     <p>
       In each of the following integrals, sketch the region of integration in the <m>xy</m>-plane, 
       use an appropriate change of variables to transform it to the <m>uv</m>-plane, and then evaluate the double integral.
-</p>
+    </p>
     <ol marker="(a)">
       <li>
         <p>
-          <me>\displaystyle \int_{0}^{1} \int_{2y}^{2} e^{x^2} \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y</me>
+          The double integral
+          <me>
+            \iint\limits_R (x - y)e^{x^2 - y^2} \mathop{}\!\mathrm{d}A,
+          </me>
+          where <m>R</m> is the rectangle bounded by the lines <m>x + y=0</m>, <m>x+y=1</m>, <m>x-y=2</m>, <m>x-y=-2</m>
         </p>
       </li>
       <li>
         <p>
-          <me>\displaystyle \int_{0}^{1} \int_{\sqrt[3]{x}}^{1} \pi\cos\left(\frac{\pi y^4}{2}\right) \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+          The double interal
+          <me>
+            \iint\limits_R y - 2x \mathop{}\!\mathrm{d}A,
+          </me>
+          where <m>R</m> is the parallelogram with vertices <m>(0,0)</m>, <m>(3,2)</m>, <m>(6,0)</m>, <m>(3,-2)</m>
         </p>
       </li>
       <li>
         <p>
-          <me>\displaystyle \int_{1}^{3} \int_{0}^{\ln(x)} x \mathop{}\!\mathrm{d}y \mathop{}\!\mathrm{d}x</me>
+          <alert>(H)</alert>
+          The double integral
+          <me>
+            \iint\limits_R \frac{1}{4}(y^2 - x^2) \mathop{}\!\mathrm{d}A,
+          </me>
+          where <m>R</m> is the triangle with vertices <m>(0,0)</m>, <m>(2,2)</m>, <m>(1,3)</m>
         </p>
-      </li>
-      <li>
-        <p>
-          <me>\displaystyle \int_{0}^{6} \int_{y/3}^{2} x\cosh(x^3) \mathop{}\!\mathrm{d}x \mathop{}\!\mathrm{d}y</me>
-        </p>
+        <solution>
+          <p>
+            <me>1</me>
+          </p>
+        </solution>
       </li>
     </ol>
   </exercise>
@@ -99,38 +111,160 @@
       For each of the following integrals, sketch the region of integration in the <m>xy</m>-plane, 
       use an appropriate change of variables to transform it to the <m>uv</m>-plane, and then evaluate the double integral.
     </p>
-    <solution>
-      <p>
-        <m>\frac{3}{8}</m>
-      </p>
-    </solution>
-  </exercise>
-
-  <exercise>
-    <title>Question 4</title>
-    
     <ol marker="(a)">
       <li>
         <p>
-          The portion of the plane <m>2x + 2y + z = 8</m> such that <m>x, y, z</m> are non-negative.
+          <m>\displaystyle \iint\limits_R \mathop{}\!\mathrm{d}A</m>, where <m>R</m> is the finite region bounded by 
+          parabolas <m>y=x^2</m>, <m>y=2x^2</m>, <m>x=y^2</m> and <m>x=3y^2</m>. 
+        </p>
+        <hint>
+          <p>
+            Note that here <m>f(x,y)=1</m> so the double integral gives the area of the region of integration.
+          </p>
+        </hint>
+      </li>
+      <li>
+        <p>
+          <m>\displaystyle \iint\limits_R e^{-xy/2} \mathop{}\!\mathrm{d}A</m>, where <m>R</m> is the region bounded by
+          the lines <m>y=2x</m>, <m>y=\frac{1}{4}x</m> and the curves <m>y=\frac{1}{x}</m>, <m>y=\frac{4}{x}</m>.
         </p>
       </li>
       <li>
         <p>
-          <alert>(H)</alert> The portion of the cone <m>z = 1 - \sqrt{x^2 + y^2}</m> for which <m>z \ge 0</m>. Do not include the base.
+          <alert>(H)</alert> <m>\displaystyle \iint\limits_R y \sin(xy) \mathop{}\!\mathrm{d}A</m>, where <m>R</m> is the region bounded by
+          the lines <m>y=1</m>, <m>y=4</m> and the curves <m>y=\frac{1}{x}</m>, <m>y=\frac{4}{x}</m>.
         </p>
-        <hint>
-          <p>
-            For the integral you might consider the substitution <m>x=sin(\theta)</m>. Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.
-          </p>
-        </hint>
         <solution>
           <p>
-            <me>\pi\sqrt{2}</me>
+            <me>3(\cos(1) - \cos(4))</me>
           </p>
         </solution>
       </li>
     </ol>
-    
+  </exercise>
+
+  <exercise>
+    <title>Question 4</title>
+    <ol marker="(a)">
+      <li>
+        <p>
+          <alert>(H)</alert> Let <m>u</m> and <m>v</m> be funtctions of <m>(x,y)</m>, 
+          where <m>x</m> and <m>y</m> are functions of <m>(s,t)</m>. Show that
+          <me>
+            \frac{\partial(u, v)}{\partial(s, t)} = \frac{\partial(u, v)}{\partial(x, y)} \times \frac{\partial(x, y)}{\partial(s, t)}.
+          </me>
+        </p>
+        <hint>
+          <p>
+            For Matrices <m>A</m> and <m>B</m>, the determinant of the product is the product of the determinants:
+            <me>
+              \det(AB) = \det(A)\det(B)
+            </me>
+          </p>
+        </hint>
+        <solution>
+          <p>
+            <image source="hardThink3.jpg" width="50%">
+            </image>
+            <!--
+            <md>
+              <mrow>
+                \frac{\partial(u, v)}{\partial(x, y)} \times \frac{\partial(x, y)}{\partial(s, t)} \amp =
+              \left|
+              \begin{matrix}
+              \dfrac{\strut\partial u}{\strut\partial x} \amp \dfrac{\strut\partial u}{\strut\partial y}  \\
+              \dfrac{\strut\partial v}{\strut\partial x} \amp \dfrac{\strut\partial v}{\strut\partial y}
+              \end{matrix}
+              \right|
+              \left|
+              \begin{matrix}
+              \dfrac{\strut\partial x}{\strut\partial s} \amp \dfrac{\strut\partial x}{\strut\partial t}  \\
+              \dfrac{\strut\partial y}{\strut\partial s} \amp \dfrac{\strut\partial y}{\strut\partial t}
+              \end{matrix}
+              \right|  
+              </mrow>
+
+              <mrow>
+              \amp = \left|
+              \begin{matrix}
+              \dfrac{\strut\partial u}{\strut\partial x}\dfrac{\strut\partial x}{\strut\partial s} + \dfrac{\strut\partial u}{\strut\partial y}\dfrac{\strut\partial y}{\strut\partial s} \amp \dfrac{\strut\partial u}{\strut\partial x}\dfrac{\strut\partial x}{\strut\partial t} + \dfrac{\strut\partial u}{\strut\partial y}\dfrac{\strut\partial y}{\strut\partial t}  \\
+              \dfrac{\strut\partial v}{\strut\partial x}\dfrac{\strut\partial x}{\strut\partial s} + \dfrac{\strut\partial v}{\strut\partial y}\dfrac{\strut\partial y}{\strut\partial s} \amp \dfrac{\strut\partial v}{\strut\partial x}\dfrac{\strut\partial x}{\strut\partial t} + \dfrac{\strut\partial v}{\strut\partial y}\dfrac{\strut\partial y}{\strut\partial t}
+              \end{matrix}
+              \right|  
+              </mrow>
+
+              <mrow>
+              \amp = \left|
+              \begin{matrix}
+              \dfrac{\strut\partial u}{\strut\partial s} \amp \dfrac{\strut\partial u}{\strut\partial t}  \\
+              \dfrac{\strut\partial v}{\strut\partial s} \amp \dfrac{\strut\partial v}{\strut\partial t}
+              \end{matrix}
+              \right| = \frac{\partial u}{\partial s}\frac{\partial v}{\partial t} - \frac{\partial u}{\partial t}\frac{\partial v}{\partial s} = \frac{\partial(u, v)}{\partial(s, t)}
+              </mrow>
+            </md>
+          -->
+          </p>
+        </solution>
+      </li>
+      <li>
+        <p>
+          <alert>(H)</alert> Deduce that, for <m>u(x,y)</m>, <m>v(x,y)</m>,
+          <me>
+            \frac{\partial(u, v)}{\partial(x, y)} \times \frac{\partial(x, y)}{\partial(u, v)} = 1.
+          </me>
+        </p>
+        <solution>
+          <image source="hardThink3.jpg" width="50%">
+          </image>
+          <!--
+          <me>
+            \frac{\partial(u, v)}{\partial(x, y)} \times \frac{\partial(x, y)}{\partial(u, v)} = \frac{\partial(u, v)}{\partial(u, v)} =
+    \left|
+  \begin{matrix}
+  \dfrac{\strut\partial u}{\strut\partial u} \amp \dfrac{\strut\partial u}{\strut\partial v}  \\
+  \dfrac{\strut\partial v}{\strut\partial u} \amp \dfrac{\strut\partial v}{\strut\partial v}
+  \end{matrix}
+  \right| =
+  \left|
+  \begin{matrix}
+  1 \amp 0  \\
+  0 \amp 1
+  \end{matrix}
+  \right| = 1.
+          </me>
+        -->
+        </solution>
+      </li>
+      <li>
+        <p>
+          Evaluate the double integral
+          <me>
+            \iint\limits_R \sin(xy) \mathop{}\!\mathrm{d}A,
+          </me>
+          where <m>R</m> is the region bounded by curves <m>xy=2\pi</m>, <m>xy=\pi</m>, 
+          <m>x=y^{-4}</m> and <m>x=2y^{-4}</m>.
+        
+        </p>
+      </li>
+      <li>
+        <p>
+          Evaluate the double integral
+          <me>
+            \iint\limits_R (x^2 + y^2) \mathop{}\!\mathrm{d}A,
+          </me>
+          where <m>R</m> is the region in the first quadrant bounded by <m>y=0</m>, <m>y=x</m>, 
+          <m>xy=1</m> and <m>x^2-y^2=1</m>.
+        </p>
+        <hint>
+          <p>
+            Experiment to find a transformation that simplifies the two more complicated curves, 
+            then check what happens to the remaining ones. With the righ change of variables, 
+            one can get to a very simple integral by finding the partial derivatives of <m>x</m> and <m>y</m>
+            with respect to <m>u</m> and <m>v</m> to give the Jacobian 
+            <m>\frac{\partial(u,v)}{\partial(x,y)}</m> in terms of <m>x</m> and <m>y</m>.
+          </p>
+        </hint>
+      </li>
+    </ol>
   </exercise>
 </section>
