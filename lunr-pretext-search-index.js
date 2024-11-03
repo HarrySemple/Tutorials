@@ -106,16 +106,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 3",
-  "body": " Week 3   Problems from week 3, due 1pm Tuesday 22nd October .  Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)             Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)              Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                       "
+  "body": " Week 3   Plot of the hyperboloid and a power station cooling tower near Brussels.     (for accessibility)     Problems from week 3, due 1pm Tuesday 22nd October .  Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)             Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)              Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                       "
 },
 {
-  "id": "sec-week-3-3",
+  "id": "figure-calcplot3d-brussles",
   "level": "2",
-  "url": "sec-week-3.html#sec-week-3-3",
-  "type": "Ex",
+  "url": "sec-week-3.html#figure-calcplot3d-brussles",
+  "type": "Figure",
   "number": "9",
-  "title": "Question 1.",
-  "body": "Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)            "
+  "title": "",
+  "body": " Plot of the hyperboloid and a power station cooling tower near Brussels.     (for accessibility)    "
 },
 {
   "id": "sec-week-3-4",
@@ -123,8 +123,8 @@ var ptx_lunr_docs = [
   "url": "sec-week-3.html#sec-week-3-4",
   "type": "Ex",
   "number": "10",
-  "title": "Question 2.",
-  "body": "Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)             "
+  "title": "Question 1.",
+  "body": "Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)            "
 },
 {
   "id": "sec-week-3-5",
@@ -132,6 +132,15 @@ var ptx_lunr_docs = [
   "url": "sec-week-3.html#sec-week-3-5",
   "type": "Ex",
   "number": "11",
+  "title": "Question 2.",
+  "body": "Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)             "
+},
+{
+  "id": "sec-week-3-6",
+  "level": "2",
+  "url": "sec-week-3.html#sec-week-3-6",
+  "type": "Ex",
+  "number": "12",
   "title": "Question 3.",
   "body": "Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                      "
 },
@@ -149,7 +158,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-4.html#figure-calcplot3d",
   "type": "Figure",
-  "number": "12",
+  "number": "13",
   "title": "",
   "body": " Plot of on .   "
 },
@@ -158,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-4.html#sec-week-4-4",
   "type": "Ex",
-  "number": "13",
+  "number": "14",
   "title": "Question 4.",
   "body": "Question 4 Consider the function     (H) Show that has only one critical point, and that it is a local maximum.    Setting derivatives to zero we have  Hence there is a single critical point, at . To determine the nature of this critical point we will use the second partials test, so we need the second order partial derivatives: Hence the determinant is At the point , this is so is a local extremum. Now, , so it is a local maximum.      (H) Show that this local maximum is not a global maximum for .   The value of at this local maximum is . So, to show that this is not an global maximum, we just need to find such that . There are infinitely many points where this is true, but randomly trying values of and is not an efficient method of finding one. Here is the reasoning I used: the local maximum lies on the line , where . If we pick a negative value of with a large modulus, then the that appears in this expression with be a large positive number, giving a value of greater than . So, for example, try Thus , the local maximum at is not a global maximum.     Use Geogebra 3D or Desmos 3D to plot the surface defined by and check your answers in (b).    "
 },
@@ -167,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-4.html#sec-week-4-5",
   "type": "Ex",
-  "number": "14",
+  "number": "15",
   "title": "Question 5.",
   "body": "Question 5 Consider the function    Use Geogebra3D to plot the surface defined by .     (H) Find the critical point of . Show that the second partials test to determine whether the crtical point is a local maximum, local minimum, or saddle point is inconclusive. Explain briefly why you think the test is inconclusive for this particular critical point.   We have , . These are only equal to at the point , so this is the only critical point of . To (attempt to) use the second partials test, we calculate the second order partial derivatives: Hence the determinant is . At , this is , so the second partials test is inconclusive. It fails because the orders of the terms in the original function are so high - each term has order 4, so must be differentiated four times to give anything non-zero at .      (H) Show that the critical point you found in part (a) is a global minimum.   Fist, observe that . For all and , we have and , with equality only at . Thus, for or we have , so is a global minimum.      (H) Find or construct an example of a function with a local maximum that the second partials test cannot detect.   There are many examples. One simple one is . Then has a local maximum (in fact, an global maximum) at that the second partials test cannot detect.      (H) Find or construct an example of a function with a saddle point that the second partials test cannot detect.  Again, there are many examples, but adapting , we let . Then has a saddle point at that the second partials test cannot detect.   "
 },
@@ -176,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-4.html#sec-week-4-6",
   "type": "Ex",
-  "number": "15",
+  "number": "16",
   "title": "Question 6.",
   "body": "Question 6  (H) A function is said to be harmonic if it satisfies Laplace's equation:  Harmonic functions are used to model various physical quantities, including electric and magnetic fields, fluid flows, and steady-state temperature distributions. Determine whether the following functions are harmonic:        , so Hence so is harmonic.         Both and are harmonic, so their sum is also harmonic.    "
 },
@@ -194,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-5.html#sec-week-5-3",
   "type": "Ex",
-  "number": "16",
+  "number": "17",
   "title": "Question 2.",
   "body": "Question 2 Evaluate the following double integrals.                                  (H)      .    "
 },
@@ -203,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-5.html#sec-week-5-4",
   "type": "Ex",
-  "number": "17",
+  "number": "18",
   "title": "Question 3.",
   "body": "Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                   (H)          "
 },
@@ -212,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-5.html#sec-week-5-5",
   "type": "Ex",
-  "number": "18",
+  "number": "19",
   "title": "Question 4.",
   "body": "Question 4  (H) Evaluate the double integral where is the function giving the maximum, i.e. and is the region defined by , .     "
 },
@@ -221,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-week-5.html#sec-week-5-6",
   "type": "Ex",
-  "number": "19",
+  "number": "20",
   "title": "Question 7.",
   "body": "Question 7 The surface area of a function over a region is given by (Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.   The portion of the plane such that are non-negative.     (H) The portion of the cone for which . Do not include the base.   For the integral you might consider the substitution . Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.          "
 },
@@ -232,41 +241,50 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 6",
-  "body": " Week 6  Problems from week 6, due 1pm Tuesday 12th November .  Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .    Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,          Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .         Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:              (H) Deduce that, for , ,          Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .     "
+  "body": " Week 6   Plot of the Guassian curve , the area under which can only be found through a change of variable to polar coodinates - see The Guassian Integral.    Problems from week 6, due 1pm Tuesday 12th November .  Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .    Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,          Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .         Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:              (H) Deduce that, for , ,          Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .     "
 },
 {
-  "id": "sec-week-6-3",
+  "id": "figure-calcplot3d-gaussian",
   "level": "2",
-  "url": "sec-week-6.html#sec-week-6-3",
-  "type": "Ex",
-  "number": "20",
-  "title": "Question 1.",
-  "body": "Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .   "
+  "url": "sec-week-6.html#figure-calcplot3d-gaussian",
+  "type": "Figure",
+  "number": "21",
+  "title": "",
+  "body": " Plot of the Guassian curve , the area under which can only be found through a change of variable to polar coodinates - see The Guassian Integral.   "
 },
 {
   "id": "sec-week-6-4",
   "level": "2",
   "url": "sec-week-6.html#sec-week-6-4",
   "type": "Ex",
-  "number": "21",
-  "title": "Question 2.",
-  "body": "Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,         "
+  "number": "22",
+  "title": "Question 1.",
+  "body": "Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .   "
 },
 {
   "id": "sec-week-6-5",
   "level": "2",
   "url": "sec-week-6.html#sec-week-6-5",
   "type": "Ex",
-  "number": "22",
-  "title": "Question 3.",
-  "body": "Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .        "
+  "number": "23",
+  "title": "Question 2.",
+  "body": "Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,         "
 },
 {
   "id": "sec-week-6-6",
   "level": "2",
   "url": "sec-week-6.html#sec-week-6-6",
   "type": "Ex",
-  "number": "23",
+  "number": "24",
+  "title": "Question 3.",
+  "body": "Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .        "
+},
+{
+  "id": "sec-week-6-7",
+  "level": "2",
+  "url": "sec-week-6.html#sec-week-6-7",
+  "type": "Ex",
+  "number": "25",
   "title": "Question 4.",
   "body": "Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:              (H) Deduce that, for , ,          Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .    "
 },
@@ -293,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-second-partials-test.html#thm-2d-derivative-test",
   "type": "Claim",
-  "number": "24",
+  "number": "26",
   "title": "The Second Partial Derivatives Test (Theorem 2.8).",
   "body": " The Second Partial Derivatives Test (Theorem 2.8)   Let be a function of two variables with continuous second-order partial derivatives in some disc centred at a critical point , and let    If and then is a local minimum.    If and then is a local maximum.    If then is a saddle point.      "
 },
@@ -311,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-second-partials-test.html#thm-1d-derivative-test",
   "type": "Theorem",
-  "number": "25",
+  "number": "27",
   "title": "Second Derivative Test in 1D.",
   "body": " Second Derivative Test in 1D   Let be a function with continuous second-order derivatives in some interval centred at a critical point .   If then is a local minimum.    If then is a local maximum.    If then the test is inconclusive.      "
 },
@@ -365,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#sec-normal-dist-derivation-20",
   "type": "Ex",
-  "number": "26",
+  "number": "28",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?     "
 },
@@ -374,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#ex-norm-1",
   "type": "Ex",
-  "number": "27",
+  "number": "29",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?  Stay with exponentials!      "
 },
