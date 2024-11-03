@@ -3,6 +3,12 @@
 <section xml:id="sec-week-6" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 6</title>
 
+  <figure xml:id="figure-calcplot3d-gaussian">
+    <caption>Plot of the Guassian curve <m>f(x, y) = e^{-x^2-y^2}</m>, the area under which can only be found through a change of variable to polar coodinates - see <xref ref="subsec-gauss" text="type-global">The Guassian Integral.</xref></caption>
+    <interactive xml:id="calcplot3d-guassian" calcplot3d="type=z;z=e%5E(-x%5E2%20-%20y%5E2);funname=f;visible=true;umin=-2;umax=2;vmin=-2;vmax=2;grid=31;format=constant;alpha=218;hidemyedges=false;constcol=rgb(17,163,192);view=0;contourcolor=rgb(255,0,0);fixdomain=false;activetrace=false;contourplot=true;showcontourplot=false;firstvalue=-1;stepsize=0.2;numlevels=11;list=-1,-0.8,-0.6,-0.4,-0.2,0,0.2,0.4,0.6,0.8,1;uselist=false;xnum=46;ynum=46;show2d=true;hidesurface=false;hidelabels=false;showprojections=false;surfacecontours=true;projectioncolor=rgba(51,153,0,1);showxygrid=false;showxygridonbox=true;showconstraint=false&amp;type=window;showfunnot=false;hsrmode=0;nomidpts=false;anaglyph=-1;center=8.236391035463326,4.755282581475771,3.090169943749469,1;focus=0,0,0,1;up=-0.18005680599195487,-0.10395584540887937,0.9781476007338057,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=false;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);lastaddedsurfaceactive=true;disabletrace=false;activefun=-1;xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;xscalefactor=1;yscalefactor=1;zscalefactor=1;tracemode=0;keep2d=false;zoom=1.226667" variant="minimal" width="95%" aspect="3:2" />
+  </figure>
+
+
   <p> Problems from week 6, due <alert>1pm Tuesday 12th November</alert>. </p>
   
   <exercise>

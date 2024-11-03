@@ -2,12 +2,16 @@
 
 <section xml:id="sec-week-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 3</title>
-  <!--
-  <figure xml:id="figure-calcplot3d-2">
-    <caption>Plot of <m>x^2 - y^2 + z^2 +1=0</m> on <m>[-2,2]\times[-2,2]</m>.</caption>
-    <interactive xml:id="calcplot3d-intersection-planes" calcplot3d="type=implicit;equation=x^2-y^2+z^2~-1;cubes=16;visible=true;xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-2;zmax=2;alpha=-1;format=constant;constcol=rgb(61,133,198)&amp;type=window;hsrmode=0;anaglyph=-1;center=7.006292692220367,5.09036960455127,4.999999999999999,1;focus=0,0,0,1;up=-0.3290568564833397,-0.23907380036690282,0.9135454576426009,1;transparent=true;alpha=140;edgeson=false;faceson=true;showbox=false;showaxes=true;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=false;gridcolor=rgb(128,128,128);xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;zoom=0.655294;xscalefactor=1;yscalefactor=1;zscalefactor=1" variant="minimal" width="80%" />
+  <figure xml:id="figure-calcplot3d-brussles">
+    <caption>Plot of the hyperboloid <m>1.2x^2 +1.2y^2 - 0.16z^2 = 1</m> and a power station cooling tower near Brussels.</caption>
+    <sidebyside>
+      
+      <interactive xml:id="calcplot3d-brussels" calcplot3d="type=z;z=e%5E(-x%5E2%20-%20y%5E2);funname=f;visible=false;umin=-2;umax=2;vmin=-2;vmax=2;grid=31;format=constant;alpha=218;hidemyedges=false;constcol=rgb(17,163,192);view=0;contourcolor=red;fixdomain=false;activetrace=false;contourplot=true;showcontourplot=false;firstvalue=-1;stepsize=0.2;numlevels=11;list=;uselist=false;xnum=46;ynum=46;show2d=false;hidesurface=false;hidelabels=true;showprojections=false;surfacecontours=true;projectioncolor=rgba(255,0,0,1);showxygrid=false;showxygridonbox=true;showconstraint=false&amp;type=parametric;parametric=2;x=2sin(v)*cos(u);y=2sin(v)*sin(u);z=2cos(v);visible=false;umin=0;umax=2pi;usteps=30;vmin=0;vmax=pi;vsteps=15;alpha=-1;hidemyedges=false;view=0;format=normal;constcol=rgb(255,0,0);activetrace=false&amp;type=implicit;equation=1.2x%5E2%20+1.2y%5E2%20-%200.16z%5E2%20~%201;cubes=32;visible=true;fixdomain=true;xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-2.1;zmax=1.205;alpha=160;hidemyedges=false;view=0;format=normal;constcol=rgb(17,109,192)&amp;type=window;showfunnot=false;hsrmode=0;nomidpts=false;anaglyph=-1;center=9.29392438750078,3.343212336016878,-1.5639375805070463,1;focus=0,0,0,1;up=0.2413283963772519,0.09363125198558313,0.9659160386667137,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=false;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);lastaddedsurfaceactive=true;disabletrace=false;activefun=-1;xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;xscalefactor=1;yscalefactor=1;zscalefactor=1;tracemode=0;keep2d=false;zoom=0.42" variant="minimal" width="40%" />
+      <image source="brussels2.jpeg" width="20%">
+        <shortdescription>(for accessibility)</shortdescription>
+      </image>
+    </sidebyside>
   </figure>
--->
   <p> Problems from week 3, due <alert>1pm Tuesday 22nd October</alert>. </p>
   <exercise>
     <title>Question 1</title>
