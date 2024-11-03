@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 5",
-  "body": " Week 5  Problems from week 5, due 1pm Tuesday 5th November .  Question 2 Evaluate the following double integrals.                                  (H)      .     Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                   (H)      Question 4  (H) Evaluate the double integral where is the function giving the maximum, i.e. and is the region defined by , .      Question 7 The surface area of a function over a region is given by (Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.   The portion of the plane such that are non-negative.     (H) The portion of the cone for which . Do not include the base.   For the integral you might consider the substitution . Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.           "
+  "body": " Week 5  Problems from week 5, due 1pm Tuesday 5th November .  Question 2 Evaluate the following double integrals.                                  (H)      .     Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                   (H)           Question 4  (H) Evaluate the double integral where is the function giving the maximum, i.e. and is the region defined by , .      Question 7 The surface area of a function over a region is given by (Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.   The portion of the plane such that are non-negative.     (H) The portion of the cone for which . Do not include the base.   For the integral you might consider the substitution . Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.           "
 },
 {
   "id": "sec-week-5-3",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Ex",
   "number": "17",
   "title": "Question 3.",
-  "body": "Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                   (H)     "
+  "body": "Question 3 For each of the following double integrals, sketch the region of integration, then change the order of integration and hence evaluate the integral.                   (H)          "
 },
 {
   "id": "sec-week-5-5",
@@ -224,6 +224,51 @@ var ptx_lunr_docs = [
   "number": "19",
   "title": "Question 7.",
   "body": "Question 7 The surface area of a function over a region is given by (Compare this with the arc length formula for functions of one variable.) Use this to calculate the surface area of each of the following surfaces.   The portion of the plane such that are non-negative.     (H) The portion of the cone for which . Do not include the base.   For the integral you might consider the substitution . Or think about how you can evaluate the integral from the geometry of the problem, without actually doing any integration.          "
+},
+{
+  "id": "sec-week-6",
+  "level": "1",
+  "url": "sec-week-6.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 6",
+  "body": " Week 6  Problems from week 6, due 1pm Tuesday 12th November .  Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .    Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,          Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .         Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:              (H) Deduce that, for , ,          Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .     "
+},
+{
+  "id": "sec-week-6-3",
+  "level": "2",
+  "url": "sec-week-6.html#sec-week-6-3",
+  "type": "Ex",
+  "number": "20",
+  "title": "Question 1.",
+  "body": "Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .   "
+},
+{
+  "id": "sec-week-6-4",
+  "level": "2",
+  "url": "sec-week-6.html#sec-week-6-4",
+  "type": "Ex",
+  "number": "21",
+  "title": "Question 2.",
+  "body": "Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,         "
+},
+{
+  "id": "sec-week-6-5",
+  "level": "2",
+  "url": "sec-week-6.html#sec-week-6-5",
+  "type": "Ex",
+  "number": "22",
+  "title": "Question 3.",
+  "body": "Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .        "
+},
+{
+  "id": "sec-week-6-6",
+  "level": "2",
+  "url": "sec-week-6.html#sec-week-6-6",
+  "type": "Ex",
+  "number": "23",
+  "title": "Question 4.",
+  "body": "Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:              (H) Deduce that, for , ,          Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .    "
 },
 {
   "id": "sec-arc-length-derivation",
@@ -248,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-second-partials-test.html#thm-2d-derivative-test",
   "type": "Claim",
-  "number": "20",
+  "number": "24",
   "title": "The Second Partial Derivatives Test (Theorem 2.8).",
   "body": " The Second Partial Derivatives Test (Theorem 2.8)   Let be a function of two variables with continuous second-order partial derivatives in some disc centred at a critical point , and let    If and then is a local minimum.    If and then is a local maximum.    If then is a saddle point.      "
 },
@@ -266,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-second-partials-test.html#thm-1d-derivative-test",
   "type": "Theorem",
-  "number": "21",
+  "number": "25",
   "title": "Second Derivative Test in 1D.",
   "body": " Second Derivative Test in 1D   Let be a function with continuous second-order derivatives in some interval centred at a critical point .   If then is a local minimum.    If then is a local maximum.    If then the test is inconclusive.      "
 },
@@ -320,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#sec-normal-dist-derivation-20",
   "type": "Ex",
-  "number": "22",
+  "number": "26",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?     "
 },
@@ -329,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#ex-norm-1",
   "type": "Ex",
-  "number": "23",
+  "number": "27",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?  Stay with exponentials!      "
 },
