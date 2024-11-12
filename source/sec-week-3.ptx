@@ -2,6 +2,7 @@
 
 <section xml:id="sec-week-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 3</title>
+  <subtitle>Coordinate Systems</subtitle>
   <figure xml:id="figure-calcplot3d-brussles">
     <caption>Plot of the hyperboloid <m>1.2x^2 +1.2y^2 - 0.16z^2 = 1</m> and a power station cooling tower near Brussels.</caption>
     <sidebyside>

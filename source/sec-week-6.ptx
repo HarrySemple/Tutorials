@@ -39,13 +39,9 @@
           <m>S</m>is the triangle with vertices <m>(0,0)</m>, <m>(2,0)</m>, <m>(2,1)</m>.
         </p>
         <solution>
-          <image source="hardThink3.jpg" width="50%">
-          </image>
-          <!--
           <p>
             <me>v = \dfrac{y - x}{2}, \quad u = \dfrac{x + y}{2}</me>
           </p>
-        -->
         </solution>
       </li>
       <li>
@@ -170,9 +166,6 @@
         </hint>
         <solution>
           <p>
-            <image source="hardThink3.jpg" width="50%">
-            </image>
-            <!--
             <md>
               <mrow>
                 \frac{\partial(u, v)}{\partial(x, y)} \times \frac{\partial(x, y)}{\partial(s, t)} \amp =
@@ -208,7 +201,6 @@
               \right| = \frac{\partial u}{\partial s}\frac{\partial v}{\partial t} - \frac{\partial u}{\partial t}\frac{\partial v}{\partial s} = \frac{\partial(u, v)}{\partial(s, t)}
               </mrow>
             </md>
-          -->
           </p>
         </solution>
       </li>
@@ -220,9 +212,6 @@
           </me>
         </p>
         <solution>
-          <image source="hardThink3.jpg" width="50%">
-          </image>
-          <!--
           <me>
             \frac{\partial(u, v)}{\partial(x, y)} \times \frac{\partial(x, y)}{\partial(u, v)} = \frac{\partial(u, v)}{\partial(u, v)} =
     \left|
@@ -238,7 +227,6 @@
   \end{matrix}
   \right| = 1.
           </me>
-        -->
         </solution>
       </li>
       <li>
