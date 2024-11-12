@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 3",
-  "body": " Week 3   Plot of the hyperboloid and a power station cooling tower near Brussels.     (for accessibility)     Problems from week 3, due 1pm Tuesday 22nd October .  Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)             Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)              Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                       "
+  "body": " Week 3  Coordinate Systems   Plot of the hyperboloid and a power station cooling tower near Brussels.     (for accessibility)     Problems from week 3, due 1pm Tuesday 22nd October .  Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)             Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)              Question 3 Convert each of the following surfaces from spherical to rectangular coordinates and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.    (H)                       "
 },
 {
   "id": "figure-calcplot3d-brussles",
@@ -118,27 +118,27 @@ var ptx_lunr_docs = [
   "body": " Plot of the hyperboloid and a power station cooling tower near Brussels.     (for accessibility)    "
 },
 {
-  "id": "sec-week-3-4",
+  "id": "sec-week-3-5",
   "level": "2",
-  "url": "sec-week-3.html#sec-week-3-4",
+  "url": "sec-week-3.html#sec-week-3-5",
   "type": "Ex",
   "number": "10",
   "title": "Question 1.",
   "body": "Question 1 Sketch the surface defined in rectangular coordinates by each of these functions. Briefly outline the process by which you constructed your sketch.         (H)       (2006 Winter Olympics halfpipe)            "
 },
 {
-  "id": "sec-week-3-5",
+  "id": "sec-week-3-6",
   "level": "2",
-  "url": "sec-week-3.html#sec-week-3-5",
+  "url": "sec-week-3.html#sec-week-3-6",
   "type": "Ex",
   "number": "11",
   "title": "Question 2.",
   "body": "Question 2 Convert each of the following surfaces from rectangular to cylindrical polar coordinates, or vice-versa, and sketch it using whichever coordinate system you prefer. Briefly outline the process by which you constructed your sketch.              (H)             "
 },
 {
-  "id": "sec-week-3-6",
+  "id": "sec-week-3-7",
   "level": "2",
-  "url": "sec-week-3.html#sec-week-3-6",
+  "url": "sec-week-3.html#sec-week-3-7",
   "type": "Ex",
   "number": "12",
   "title": "Question 3.",
@@ -241,7 +241,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 6",
-  "body": " Week 6   Plot of the Guassian curve , the area under which can only be found through a change of variable to polar coodinates - see The Guassian Integral.    Problems from week 6, due 1pm Tuesday 12th November .  Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .    Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,          Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .         Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:              (H) Deduce that, for , ,          Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .     "
+  "body": " Week 6   Plot of the Guassian curve , the area under which can only be found through a change of variable to polar coodinates - see The Guassian Integral.    Problems from week 6, due 1pm Tuesday 12th November .  Question 1 In each of the following cases, sketch the region in the -plane and the region in the -plane. Then find a transformation that, when applied to the region in the -plane, has as its image the region in the -plane. In each case, calculate the Jacobian of the transformation.    is the rectangle with vertices , , , ; is the rectangle defined by .     is the parallelogram with vertices , , , ; is the rectangle defined by .     (H)  is the triangle with vertices , , ; is the triangle with vertices , , .          is the region bounded by , , , ; is the rectangle defined by .     is the region bounded by the -axis and the semicircles , ; is the rectangle defined by .    Question 2 In each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.   The double integral where is the rectangle bounded by the lines , , ,     The double interal where is the parallelogram with vertices , , ,      (H) The double integral where is the triangle with vertices , ,          Question 3 For each of the following integrals, sketch the region of integration in the -plane, use an appropriate change of variables to transform it to the -plane, and then evaluate the double integral.    , where is the finite region bounded by parabolas , , and .   Note that here so the double integral gives the area of the region of integration.      , where is the region bounded by the lines , and the curves , .     (H)  , where is the region bounded by the lines , and the curves , .         Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:            (H) Deduce that, for , ,        Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .     "
 },
 {
   "id": "figure-calcplot3d-gaussian",
@@ -286,7 +286,7 @@ var ptx_lunr_docs = [
   "type": "Ex",
   "number": "25",
   "title": "Question 4.",
-  "body": "Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:              (H) Deduce that, for , ,          Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .    "
+  "body": "Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:            (H) Deduce that, for , ,        Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .    "
 },
 {
   "id": "sec-arc-length-derivation",
