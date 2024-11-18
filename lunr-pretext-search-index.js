@@ -289,6 +289,60 @@ var ptx_lunr_docs = [
   "body": "Question 4    (H) Let and be funtctions of , where and are functions of . Show that    For Matrices and , the determinant of the product is the product of the determinants:            (H) Deduce that, for , ,        Evaluate the double integral where is the region bounded by curves , , and .    Evaluate the double integral where is the region in the first quadrant bounded by , , and .   Experiment to find a transformation that simplifies the two more complicated curves, then check what happens to the remaining ones. With the righ change of variables, one can get to a very simple integral by finding the partial derivatives of and with respect to and to give the Jacobian in terms of and .    "
 },
 {
+  "id": "sec-week-7",
+  "level": "1",
+  "url": "sec-week-7.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 7",
+  "body": " Week 7  Problems from week 7, due 1pm Tuesday 19th November .  Question 2 Evaluate the following double integrals by converting to polar coordinates.              (H)           Question 3 Evaluate the following double integrals using polar coordinates.    , where is the region enclosed by the cardioid .     , where is the region outside the circle and inside the circle .     , where is the region inside the circle and to the right of the line .     (H)  , where is the region in the first quadrant bounded by the and .    .     Question 4 In each case, evaluate the cuboid and calculate the given triple integral over it.    , where is defined by , and .     , where is defined by , and .     , where is defined by , and .     (H)  , where is defined by , and .         Question 5 In each case, determine the simple -solid and calculate the given triple integral over it. has lower surface , upper surface and its projection onto the -plane is the region .    , where is defined by , , and is the rectangle , .     , where is defined by , , and is the region bounded by the curves , , and      (H)  , where is defined by , , and is the quater-disc of radius , centred at the origin, in which and are positive.         Question 6 In each case, determine the 3 dimensional region of integration and evaluate the triple integral by converting to spherical coordinates.         (H)           "
+},
+{
+  "id": "sec-week-7-3",
+  "level": "2",
+  "url": "sec-week-7.html#sec-week-7-3",
+  "type": "Ex",
+  "number": "26",
+  "title": "Question 2.",
+  "body": "Question 2 Evaluate the following double integrals by converting to polar coordinates.              (H)          "
+},
+{
+  "id": "sec-week-7-4",
+  "level": "2",
+  "url": "sec-week-7.html#sec-week-7-4",
+  "type": "Ex",
+  "number": "27",
+  "title": "Question 3.",
+  "body": "Question 3 Evaluate the following double integrals using polar coordinates.    , where is the region enclosed by the cardioid .     , where is the region outside the circle and inside the circle .     , where is the region inside the circle and to the right of the line .     (H)  , where is the region in the first quadrant bounded by the and .    .    "
+},
+{
+  "id": "sec-week-7-5",
+  "level": "2",
+  "url": "sec-week-7.html#sec-week-7-5",
+  "type": "Ex",
+  "number": "28",
+  "title": "Question 4.",
+  "body": "Question 4 In each case, evaluate the cuboid and calculate the given triple integral over it.    , where is defined by , and .     , where is defined by , and .     , where is defined by , and .     (H)  , where is defined by , and .        "
+},
+{
+  "id": "sec-week-7-6",
+  "level": "2",
+  "url": "sec-week-7.html#sec-week-7-6",
+  "type": "Ex",
+  "number": "29",
+  "title": "Question 5.",
+  "body": "Question 5 In each case, determine the simple -solid and calculate the given triple integral over it. has lower surface , upper surface and its projection onto the -plane is the region .    , where is defined by , , and is the rectangle , .     , where is defined by , , and is the region bounded by the curves , , and      (H)  , where is defined by , , and is the quater-disc of radius , centred at the origin, in which and are positive.        "
+},
+{
+  "id": "sec-week-7-7",
+  "level": "2",
+  "url": "sec-week-7.html#sec-week-7-7",
+  "type": "Ex",
+  "number": "30",
+  "title": "Question 6.",
+  "body": "Question 6 In each case, determine the 3 dimensional region of integration and evaluate the triple integral by converting to spherical coordinates.         (H)          "
+},
+{
   "id": "sec-arc-length-derivation",
   "level": "1",
   "url": "sec-arc-length-derivation.html",
@@ -311,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-second-partials-test.html#thm-2d-derivative-test",
   "type": "Claim",
-  "number": "26",
+  "number": "31",
   "title": "The Second Partial Derivatives Test (Theorem 2.8).",
   "body": " The Second Partial Derivatives Test (Theorem 2.8)   Let be a function of two variables with continuous second-order partial derivatives in some disc centred at a critical point , and let    If and then is a local minimum.    If and then is a local maximum.    If then is a saddle point.      "
 },
@@ -329,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-second-partials-test.html#thm-1d-derivative-test",
   "type": "Theorem",
-  "number": "27",
+  "number": "32",
   "title": "Second Derivative Test in 1D.",
   "body": " Second Derivative Test in 1D   Let be a function with continuous second-order derivatives in some interval centred at a critical point .   If then is a local minimum.    If then is a local maximum.    If then the test is inconclusive.      "
 },
@@ -383,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#sec-normal-dist-derivation-20",
   "type": "Ex",
-  "number": "28",
+  "number": "33",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?     "
 },
@@ -392,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-dist-derivation.html#ex-norm-1",
   "type": "Ex",
-  "number": "29",
+  "number": "34",
   "title": "",
   "body": "Find a function that satisfies What is the general form of functions that satisfy ?  Stay with exponentials!      "
 },
